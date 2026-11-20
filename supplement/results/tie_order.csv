@@ -1,0 +1,5 @@
+﻿tie_rule,order,answer_equal,strict_replay
+insertion,fixed,1.0,1.0
+insertion,shuffled,1.0,1.0
+cid,fixed,1.0,1.0
+cid,shuffled,1.0,1.0

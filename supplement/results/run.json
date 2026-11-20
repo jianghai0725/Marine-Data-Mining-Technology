@@ -1,0 +1,59 @@
+{
+  "seed": 20261120,
+  "dim": 8192,
+  "topk": 5,
+  "docs": 120,
+  "queries": 120,
+  "chunks_base": 480,
+  "base_accuracy": 0.95,
+  "base_notfound": 6,
+  "hardened_reflow_vs_orig": {
+    "answer_equal": 1.0,
+    "strict_replay": 1.0,
+    "jaccard": 1.0,
+    "accuracy": 0.9583,
+    "changed": 0,
+    "cite_only": 0
+  },
+  "hardened_vs_archive": {
+    "answer_equal": 0.9417,
+    "strict_replay": 0.0,
+    "jaccard": 0.5898,
+    "accuracy": 0.9583,
+    "changed": 7,
+    "cite_only": 113
+  },
+  "plain_reflow_vs_archive": {
+    "answer_equal": 0.9417,
+    "strict_replay": 0.85,
+    "jaccard": 0.6385,
+    "accuracy": 0.9333,
+    "changed": 7,
+    "cite_only": 12
+  },
+  "stale_shadow": [
+    {
+      "condition": "含陈旧汇总表（未更新）",
+      "answered_from_summary": 6,
+      "accuracy": 0.9083,
+      "true_updates_detected": 18,
+      "true_updates_total": 20
+    },
+    {
+      "condition": "无陈旧副本（主实验）",
+      "answered_from_summary": 0,
+      "accuracy": 0.95,
+      "true_updates_detected": 20,
+      "true_updates_total": 20
+    }
+  ],
+  "sha256": {
+    "summary.csv": "ad8e29a40905c5ad",
+    "sources.csv": "deb5405c780b5f87",
+    "ablation.csv": "a407acedb590525d",
+    "tie_order.csv": "42ded3c6e02f0a50",
+    "tie_counts.csv": "9169d7877c4316f9",
+    "change_detection.csv": "904ac9a3ec0ff1c8",
+    "stale_shadow.csv": "b388ecdaa8f8f265"
+  }
+}

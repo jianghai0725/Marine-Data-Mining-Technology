@@ -1,0 +1,102 @@
+{
+  "seed": 20261120,
+  "top_k": 3,
+  "wide_k": 7,
+  "questions": 102,
+  "question_types": {
+    "navigate": 36,
+    "lookup": 36,
+    "missing": 12,
+    "compare": 18
+  },
+  "official_passages": 96,
+  "noise_passages": 198,
+  "strategy_results": 1224,
+  "examples": {
+    "links": {
+      "output": "links",
+      "citations": [
+        "aster-old",
+        "birch-new"
+      ],
+      "reason": "ranked_links",
+      "calls": 1,
+      "returned": 2,
+      "evaluation": "missed",
+      "rendered": "aster-old | birch-new"
+    },
+    "fixed": {
+      "output": "answer",
+      "citations": [
+        "aster-old",
+        "birch-new"
+      ],
+      "reason": "evidence_complete",
+      "calls": 1,
+      "returned": 2,
+      "evaluation": "wrong_answer",
+      "rendered": "aster01: 15 files [aster-old]; birch01: 30 files [birch-new]"
+    },
+    "gate": {
+      "output": "abstain",
+      "citations": [],
+      "reason": "evidence_gap",
+      "calls": 1,
+      "returned": 2,
+      "evaluation": "missed_answer",
+      "rendered": "Insufficient evidence in this snapshot."
+    },
+    "wide": {
+      "output": "answer",
+      "citations": [
+        "aster-new",
+        "birch-new"
+      ],
+      "reason": "evidence_complete",
+      "calls": 1,
+      "returned": 3,
+      "evaluation": "grounded",
+      "rendered": "aster01: 25 files [aster-new]; birch01: 30 files [birch-new]"
+    },
+    "gap": {
+      "output": "answer",
+      "citations": [
+        "aster-new",
+        "birch-new"
+      ],
+      "reason": "evidence_complete",
+      "calls": 2,
+      "returned": 4,
+      "evaluation": "grounded",
+      "rendered": "aster01: 25 files [aster-new]; birch01: 30 files [birch-new]"
+    },
+    "all_targeted": {
+      "output": "answer",
+      "citations": [
+        "aster-new",
+        "birch-new"
+      ],
+      "reason": "evidence_complete",
+      "calls": 2,
+      "returned": 3,
+      "evaluation": "grounded",
+      "rendered": "aster01: 25 files [aster-new]; birch01: 30 files [birch-new]"
+    },
+    "stale_release_manifest": {
+      "output": "answer",
+      "citations": [
+        "aster-old",
+        "birch-new"
+      ],
+      "reason": "evidence_complete",
+      "calls": 1,
+      "returned": 2,
+      "evaluation": "wrong_answer"
+    }
+  },
+  "sha256": {
+    "summary.csv": "72568977e43228f28ba9c49c3a3d96ec51b01046ab7f8175f70e9b0ed2bcefab",
+    "by_query.csv": "a363e5424207ee84b3cb9d7f53eb82be2100fabd489bef9f6e823015d8df974c",
+    "corpus.json.gz": "c2855d210d56ca3afb5f30cf0894a421710aabc68f76e2bc3c74ff75fa2927c4"
+  }
+}

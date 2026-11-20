@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="378" viewBox="0 0 720 378">
+<rect width="720" height="378" fill="#ffffff"/>
+<text x="250" y="26" font-size="14" fill="#222">单因子构型变更：答案漂移与证据churn</text>
+<rect x="250" y="36" width="10" height="10" fill="#c0392b"/>
+<text x="265" y="45" font-size="10.5" fill="#333">答案漂移率</text>
+<rect x="355" y="36" width="10" height="10" fill="#2c7fb8"/>
+<text x="370" y="45" font-size="10.5" fill="#333">证据churn 率（1 − top-5 Jaccard）</text>
+<text x="8" y="71" font-size="10.5" fill="#333">D1 重新抽取（硬折行+标点空格）</text>
+<rect x="250" y="56" width="22.2" height="13" fill="#c0392b"/>
+<text x="277.2" y="67" font-size="9.5" fill="#c0392b">5.8%</text>
+<rect x="250" y="72" width="137.4" height="13" fill="#2c7fb8"/>
+<text x="392.4" y="83" font-size="9.5" fill="#2c7fb8">36.2%</text>
+<text x="8" y="117" font-size="10.5" fill="#333">D2 归一化升级 v1→v2</text>
+<rect x="250" y="102" width="22.2" height="13" fill="#c0392b"/>
+<text x="277.2" y="113" font-size="9.5" fill="#c0392b">5.8%</text>
+<rect x="250" y="118" width="155.9" height="13" fill="#2c7fb8"/>
+<text x="410.9" y="129" font-size="9.5" fill="#2c7fb8">41.0%</text>
+<text x="8" y="163" font-size="10.5" fill="#333">D3 分块参数 200/80→240/80</text>
+<rect x="250" y="148" width="19.0" height="13" fill="#c0392b"/>
+<text x="274.0" y="159" font-size="9.5" fill="#c0392b">5.0%</text>
+<rect x="250" y="164" width="168.3" height="13" fill="#2c7fb8"/>
+<text x="423.3" y="175" font-size="9.5" fill="#2c7fb8">44.3%</text>
+<text x="8" y="209" font-size="10.5" fill="#333">D4 索引构建顺序打乱</text>
+<rect x="250" y="194" width="0.0" height="13" fill="#c0392b"/>
+<text x="255.0" y="205" font-size="9.5" fill="#c0392b">0.0%</text>
+<rect x="250" y="210" width="4.2" height="13" fill="#2c7fb8"/>
+<text x="259.2" y="221" font-size="9.5" fill="#2c7fb8">1.1%</text>
+<text x="8" y="255" font-size="10.5" fill="#333">D5 数值精度 f64→f32</text>
+<rect x="250" y="240" width="0.0" height="13" fill="#c0392b"/>
+<text x="255.0" y="251" font-size="9.5" fill="#c0392b">0.0%</text>
+<rect x="250" y="256" width="0.0" height="13" fill="#2c7fb8"/>
+<text x="255.0" y="267" font-size="9.5" fill="#2c7fb8">0.0%</text>
+<text x="8" y="301" font-size="10.5" fill="#333">D6 真实内容更新（20 站）</text>
+<rect x="250" y="286" width="66.5" height="13" fill="#c0392b"/>
+<text x="321.5" y="297" font-size="9.5" fill="#c0392b">17.5%</text>
+<rect x="250" y="302" width="11.4" height="13" fill="#2c7fb8"/>
+<text x="266.4" y="313" font-size="9.5" fill="#2c7fb8">3.0%</text>
+<line x1="250" y1="50" x2="250" y2="324" stroke="#bbbbbb"/>
+<text x="250" y="364" font-size="10" fill="#555">纵轴：120 条问句中被改变的比例</text>
+</svg>
