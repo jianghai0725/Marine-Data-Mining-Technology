@@ -1,0 +1,973 @@
+scenario,seed,question,broad_query,policy,branch,first_round_usable,status,calls,passages,citations
+official_both_named,20261124,aster01-compare,compare the current export file limit of aster01 and aster02,all_targeted,all_targeted,1,grounded,2,5,aster01/current/quota|aster02/current/quota
+official_both_named,20261124,aster01-compare,compare the current export file limit of aster01 and aster02,gap,gap,1,grounded,2,5,aster01/current/quota|aster02/current/quota
+official_both_named,20261124,aster01-compare,compare the current export file limit of aster01 and aster02,calibrated,gap,1,grounded,2,5,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261124,aster01-compare,compare the current export file limit of aster01 and aster02,all_targeted,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261124,aster01-compare,compare the current export file limit of aster01 and aster02,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261124,aster01-compare,compare the current export file limit of aster01 and aster02,calibrated,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261124,aster01-compare,compare the current export file limit of aster01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261124,aster01-compare,compare the current export file limit of aster01 and the other tool,gap,gap,0,grounded,3,9,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261124,aster01-compare,compare the current export file limit of aster01 and the other tool,calibrated,all_targeted,0,grounded,2,6,aster01/current/quota|aster02/current/quota
+official_both_named,20261124,aster03-compare,compare the current file export allowance of aster03 and aster04,all_targeted,all_targeted,2,grounded,2,5,aster03/current/quota|aster04/current/quota
+official_both_named,20261124,aster03-compare,compare the current file export allowance of aster03 and aster04,gap,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+official_both_named,20261124,aster03-compare,compare the current file export allowance of aster03 and aster04,calibrated,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261124,aster03-compare,compare the current file export allowance of aster03 and aster04,all_targeted,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261124,aster03-compare,compare the current file export allowance of aster03 and aster04,gap,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261124,aster03-compare,compare the current file export allowance of aster03 and aster04,calibrated,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261124,aster03-compare,compare the current file export allowance of aster03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261124,aster03-compare,compare the current file export allowance of aster03 and the other tool,gap,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261124,aster03-compare,compare the current file export allowance of aster03 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+official_both_named,20261124,aster05-compare,compare the current file export allowance of aster05 and aster06,all_targeted,all_targeted,0,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261124,aster05-compare,compare the current file export allowance of aster05 and aster06,gap,gap,0,grounded,3,9,aster05/current/quota|aster06/current/quota
+official_both_named,20261124,aster05-compare,compare the current file export allowance of aster05 and aster06,calibrated,gap,0,grounded,3,9,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261124,aster05-compare,compare the current file export allowance of aster05 and aster06,all_targeted,all_targeted,0,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261124,aster05-compare,compare the current file export allowance of aster05 and aster06,gap,gap,0,grounded,3,9,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261124,aster05-compare,compare the current file export allowance of aster05 and aster06,calibrated,gap,0,grounded,3,9,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261124,aster05-compare,compare the current file export allowance of aster05 and the other tool,all_targeted,all_targeted,0,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261124,aster05-compare,compare the current file export allowance of aster05 and the other tool,gap,gap,0,grounded,3,9,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261124,aster05-compare,compare the current file export allowance of aster05 and the other tool,calibrated,all_targeted,0,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261124,birch01-compare,compare the current export file limit of birch01 and birch02,all_targeted,all_targeted,1,grounded,2,5,birch01/current/quota|birch02/current/quota
+official_both_named,20261124,birch01-compare,compare the current export file limit of birch01 and birch02,gap,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+official_both_named,20261124,birch01-compare,compare the current export file limit of birch01 and birch02,calibrated,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261124,birch01-compare,compare the current export file limit of birch01 and birch02,all_targeted,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261124,birch01-compare,compare the current export file limit of birch01 and birch02,gap,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261124,birch01-compare,compare the current export file limit of birch01 and birch02,calibrated,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261124,birch01-compare,compare the current export file limit of birch01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261124,birch01-compare,compare the current export file limit of birch01 and the other tool,gap,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261124,birch01-compare,compare the current export file limit of birch01 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+official_both_named,20261124,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,2,grounded,2,5,birch03/current/quota|birch04/current/quota
+official_both_named,20261124,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+official_both_named,20261124,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261124,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,2,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261124,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261124,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261124,birch03-compare,compare the current export file limit of birch03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261124,birch03-compare,compare the current export file limit of birch03 and the other tool,gap,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261124,birch03-compare,compare the current export file limit of birch03 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+official_both_named,20261124,birch05-compare,compare the current export quota of birch05 and birch06,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261124,birch05-compare,compare the current export quota of birch05 and birch06,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261124,birch05-compare,compare the current export quota of birch05 and birch06,calibrated,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261124,birch05-compare,compare the current export quota of birch05 and birch06,all_targeted,all_targeted,0,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261124,birch05-compare,compare the current export quota of birch05 and birch06,gap,gap,0,grounded,3,9,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261124,birch05-compare,compare the current export quota of birch05 and birch06,calibrated,gap,0,grounded,3,9,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261124,birch05-compare,compare the current export quota of birch05 and the other tool,all_targeted,all_targeted,0,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261124,birch05-compare,compare the current export quota of birch05 and the other tool,gap,gap,0,grounded,3,9,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261124,birch05-compare,compare the current export quota of birch05 and the other tool,calibrated,all_targeted,0,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261124,coral01-compare,compare the current export file limit of coral01 and coral02,all_targeted,all_targeted,1,grounded,2,5,coral01/current/quota|coral02/current/quota
+official_both_named,20261124,coral01-compare,compare the current export file limit of coral01 and coral02,gap,gap,1,grounded,2,5,coral01/current/quota|coral02/current/quota
+official_both_named,20261124,coral01-compare,compare the current export file limit of coral01 and coral02,calibrated,gap,1,grounded,2,5,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261124,coral01-compare,compare the current export file limit of coral01 and coral02,all_targeted,all_targeted,0,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261124,coral01-compare,compare the current export file limit of coral01 and coral02,gap,gap,0,grounded,3,9,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261124,coral01-compare,compare the current export file limit of coral01 and coral02,calibrated,gap,0,grounded,3,9,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261124,coral01-compare,compare the current export file limit of coral01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261124,coral01-compare,compare the current export file limit of coral01 and the other tool,gap,gap,0,grounded,3,9,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261124,coral01-compare,compare the current export file limit of coral01 and the other tool,calibrated,all_targeted,0,grounded,2,6,coral01/current/quota|coral02/current/quota
+official_both_named,20261124,coral03-compare,compare the current export file limit of coral03 and coral04,all_targeted,all_targeted,2,grounded,2,5,coral03/current/quota|coral04/current/quota
+official_both_named,20261124,coral03-compare,compare the current export file limit of coral03 and coral04,gap,gap,2,grounded,1,3,coral03/current/quota|coral04/current/quota
+official_both_named,20261124,coral03-compare,compare the current export file limit of coral03 and coral04,calibrated,gap,2,grounded,1,3,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261124,coral03-compare,compare the current export file limit of coral03 and coral04,all_targeted,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261124,coral03-compare,compare the current export file limit of coral03 and coral04,gap,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261124,coral03-compare,compare the current export file limit of coral03 and coral04,calibrated,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261124,coral03-compare,compare the current export file limit of coral03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261124,coral03-compare,compare the current export file limit of coral03 and the other tool,gap,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261124,coral03-compare,compare the current export file limit of coral03 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+official_both_named,20261124,coral05-compare,compare the current export quota of coral05 and coral06,all_targeted,all_targeted,2,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261124,coral05-compare,compare the current export quota of coral05 and coral06,gap,gap,2,grounded,1,3,coral05/current/quota|coral06/current/quota
+official_both_named,20261124,coral05-compare,compare the current export quota of coral05 and coral06,calibrated,gap,2,grounded,1,3,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261124,coral05-compare,compare the current export quota of coral05 and coral06,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261124,coral05-compare,compare the current export quota of coral05 and coral06,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261124,coral05-compare,compare the current export quota of coral05 and coral06,calibrated,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261124,coral05-compare,compare the current export quota of coral05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261124,coral05-compare,compare the current export quota of coral05 and the other tool,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261124,coral05-compare,compare the current export quota of coral05 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261124,dune01-compare,compare the current export quota of dune01 and dune02,all_targeted,all_targeted,1,grounded,2,5,dune01/current/quota|dune02/current/quota
+official_both_named,20261124,dune01-compare,compare the current export quota of dune01 and dune02,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+official_both_named,20261124,dune01-compare,compare the current export quota of dune01 and dune02,calibrated,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261124,dune01-compare,compare the current export quota of dune01 and dune02,all_targeted,all_targeted,0,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261124,dune01-compare,compare the current export quota of dune01 and dune02,gap,gap,0,grounded,3,9,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261124,dune01-compare,compare the current export quota of dune01 and dune02,calibrated,gap,0,grounded,3,9,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261124,dune01-compare,compare the current export quota of dune01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261124,dune01-compare,compare the current export quota of dune01 and the other tool,gap,gap,0,grounded,3,9,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261124,dune01-compare,compare the current export quota of dune01 and the other tool,calibrated,all_targeted,0,grounded,2,6,dune01/current/quota|dune02/current/quota
+official_both_named,20261124,dune03-compare,compare the current file export allowance of dune03 and dune04,all_targeted,all_targeted,2,grounded,2,5,dune03/current/quota|dune04/current/quota
+official_both_named,20261124,dune03-compare,compare the current file export allowance of dune03 and dune04,gap,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+official_both_named,20261124,dune03-compare,compare the current file export allowance of dune03 and dune04,calibrated,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261124,dune03-compare,compare the current file export allowance of dune03 and dune04,all_targeted,all_targeted,2,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261124,dune03-compare,compare the current file export allowance of dune03 and dune04,gap,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261124,dune03-compare,compare the current file export allowance of dune03 and dune04,calibrated,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261124,dune03-compare,compare the current file export allowance of dune03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261124,dune03-compare,compare the current file export allowance of dune03 and the other tool,gap,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261124,dune03-compare,compare the current file export allowance of dune03 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+official_both_named,20261124,dune05-compare,compare the current export file limit of dune05 and dune06,all_targeted,all_targeted,2,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261124,dune05-compare,compare the current export file limit of dune05 and dune06,gap,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+official_both_named,20261124,dune05-compare,compare the current export file limit of dune05 and dune06,calibrated,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261124,dune05-compare,compare the current export file limit of dune05 and dune06,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261124,dune05-compare,compare the current export file limit of dune05 and dune06,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261124,dune05-compare,compare the current export file limit of dune05 and dune06,calibrated,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261124,dune05-compare,compare the current export file limit of dune05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261124,dune05-compare,compare the current export file limit of dune05 and the other tool,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261124,dune05-compare,compare the current export file limit of dune05 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261124,elm01-compare,compare the current export quota of elm01 and elm02,all_targeted,all_targeted,2,grounded,2,5,elm01/current/quota|elm02/current/quota
+official_both_named,20261124,elm01-compare,compare the current export quota of elm01 and elm02,gap,gap,2,grounded,1,3,elm01/current/quota|elm02/current/quota
+official_both_named,20261124,elm01-compare,compare the current export quota of elm01 and elm02,calibrated,gap,2,grounded,1,3,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261124,elm01-compare,compare the current export quota of elm01 and elm02,all_targeted,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261124,elm01-compare,compare the current export quota of elm01 and elm02,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261124,elm01-compare,compare the current export quota of elm01 and elm02,calibrated,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261124,elm01-compare,compare the current export quota of elm01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261124,elm01-compare,compare the current export quota of elm01 and the other tool,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261124,elm01-compare,compare the current export quota of elm01 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+official_both_named,20261124,elm03-compare,compare the current export file limit of elm03 and elm04,all_targeted,all_targeted,2,grounded,2,5,elm03/current/quota|elm04/current/quota
+official_both_named,20261124,elm03-compare,compare the current export file limit of elm03 and elm04,gap,gap,2,grounded,1,3,elm03/current/quota|elm04/current/quota
+official_both_named,20261124,elm03-compare,compare the current export file limit of elm03 and elm04,calibrated,gap,2,grounded,1,3,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261124,elm03-compare,compare the current export file limit of elm03 and elm04,all_targeted,all_targeted,0,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261124,elm03-compare,compare the current export file limit of elm03 and elm04,gap,gap,0,grounded,3,9,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261124,elm03-compare,compare the current export file limit of elm03 and elm04,calibrated,gap,0,grounded,3,9,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261124,elm03-compare,compare the current export file limit of elm03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261124,elm03-compare,compare the current export file limit of elm03 and the other tool,gap,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261124,elm03-compare,compare the current export file limit of elm03 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+official_both_named,20261124,elm05-compare,compare the current export file limit of elm05 and elm06,all_targeted,all_targeted,2,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261124,elm05-compare,compare the current export file limit of elm05 and elm06,gap,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+official_both_named,20261124,elm05-compare,compare the current export file limit of elm05 and elm06,calibrated,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261124,elm05-compare,compare the current export file limit of elm05 and elm06,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261124,elm05-compare,compare the current export file limit of elm05 and elm06,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261124,elm05-compare,compare the current export file limit of elm05 and elm06,calibrated,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261124,elm05-compare,compare the current export file limit of elm05 and the other tool,all_targeted,all_targeted,0,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261124,elm05-compare,compare the current export file limit of elm05 and the other tool,gap,gap,0,grounded,3,9,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261124,elm05-compare,compare the current export file limit of elm05 and the other tool,calibrated,all_targeted,0,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261124,firth01-compare,compare the current file export allowance of firth01 and firth02,all_targeted,all_targeted,2,grounded,2,5,firth01/current/quota|firth02/current/quota
+official_both_named,20261124,firth01-compare,compare the current file export allowance of firth01 and firth02,gap,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+official_both_named,20261124,firth01-compare,compare the current file export allowance of firth01 and firth02,calibrated,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261124,firth01-compare,compare the current file export allowance of firth01 and firth02,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261124,firth01-compare,compare the current file export allowance of firth01 and firth02,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261124,firth01-compare,compare the current file export allowance of firth01 and firth02,calibrated,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261124,firth01-compare,compare the current file export allowance of firth01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261124,firth01-compare,compare the current file export allowance of firth01 and the other tool,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261124,firth01-compare,compare the current file export allowance of firth01 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+official_both_named,20261124,firth03-compare,compare the current export file limit of firth03 and firth04,all_targeted,all_targeted,2,grounded,2,5,firth03/current/quota|firth04/current/quota
+official_both_named,20261124,firth03-compare,compare the current export file limit of firth03 and firth04,gap,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+official_both_named,20261124,firth03-compare,compare the current export file limit of firth03 and firth04,calibrated,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261124,firth03-compare,compare the current export file limit of firth03 and firth04,all_targeted,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261124,firth03-compare,compare the current export file limit of firth03 and firth04,gap,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261124,firth03-compare,compare the current export file limit of firth03 and firth04,calibrated,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261124,firth03-compare,compare the current export file limit of firth03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261124,firth03-compare,compare the current export file limit of firth03 and the other tool,gap,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261124,firth03-compare,compare the current export file limit of firth03 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+official_both_named,20261124,firth05-compare,compare the current file export allowance of firth05 and firth06,all_targeted,all_targeted,2,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261124,firth05-compare,compare the current file export allowance of firth05 and firth06,gap,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+official_both_named,20261124,firth05-compare,compare the current file export allowance of firth05 and firth06,calibrated,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261124,firth05-compare,compare the current file export allowance of firth05 and firth06,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261124,firth05-compare,compare the current file export allowance of firth05 and firth06,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261124,firth05-compare,compare the current file export allowance of firth05 and firth06,calibrated,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261124,firth05-compare,compare the current file export allowance of firth05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261124,firth05-compare,compare the current file export allowance of firth05 and the other tool,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261124,firth05-compare,compare the current file export allowance of firth05 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261125,aster01-compare,compare the current export file limit of aster01 and aster02,all_targeted,all_targeted,1,grounded,2,5,aster01/current/quota|aster02/current/quota
+official_both_named,20261125,aster01-compare,compare the current export file limit of aster01 and aster02,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+official_both_named,20261125,aster01-compare,compare the current export file limit of aster01 and aster02,calibrated,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261125,aster01-compare,compare the current export file limit of aster01 and aster02,all_targeted,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261125,aster01-compare,compare the current export file limit of aster01 and aster02,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261125,aster01-compare,compare the current export file limit of aster01 and aster02,calibrated,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261125,aster01-compare,compare the current export file limit of aster01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261125,aster01-compare,compare the current export file limit of aster01 and the other tool,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261125,aster01-compare,compare the current export file limit of aster01 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+official_both_named,20261125,aster03-compare,compare the current file export allowance of aster03 and aster04,all_targeted,all_targeted,2,grounded,2,5,aster03/current/quota|aster04/current/quota
+official_both_named,20261125,aster03-compare,compare the current file export allowance of aster03 and aster04,gap,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+official_both_named,20261125,aster03-compare,compare the current file export allowance of aster03 and aster04,calibrated,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261125,aster03-compare,compare the current file export allowance of aster03 and aster04,all_targeted,all_targeted,2,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261125,aster03-compare,compare the current file export allowance of aster03 and aster04,gap,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261125,aster03-compare,compare the current file export allowance of aster03 and aster04,calibrated,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261125,aster03-compare,compare the current file export allowance of aster03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261125,aster03-compare,compare the current file export allowance of aster03 and the other tool,gap,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261125,aster03-compare,compare the current file export allowance of aster03 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+official_both_named,20261125,aster05-compare,compare the current export file limit of aster05 and aster06,all_targeted,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261125,aster05-compare,compare the current export file limit of aster05 and aster06,gap,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261125,aster05-compare,compare the current export file limit of aster05 and aster06,calibrated,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261125,aster05-compare,compare the current export file limit of aster05 and aster06,all_targeted,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261125,aster05-compare,compare the current export file limit of aster05 and aster06,gap,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261125,aster05-compare,compare the current export file limit of aster05 and aster06,calibrated,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261125,aster05-compare,compare the current export file limit of aster05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261125,aster05-compare,compare the current export file limit of aster05 and the other tool,gap,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261125,aster05-compare,compare the current export file limit of aster05 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261125,birch01-compare,compare the current export quota of birch01 and birch02,all_targeted,all_targeted,2,grounded,2,5,birch01/current/quota|birch02/current/quota
+official_both_named,20261125,birch01-compare,compare the current export quota of birch01 and birch02,gap,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+official_both_named,20261125,birch01-compare,compare the current export quota of birch01 and birch02,calibrated,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261125,birch01-compare,compare the current export quota of birch01 and birch02,all_targeted,all_targeted,2,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261125,birch01-compare,compare the current export quota of birch01 and birch02,gap,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261125,birch01-compare,compare the current export quota of birch01 and birch02,calibrated,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261125,birch01-compare,compare the current export quota of birch01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261125,birch01-compare,compare the current export quota of birch01 and the other tool,gap,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261125,birch01-compare,compare the current export quota of birch01 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+official_both_named,20261125,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,1,grounded,2,5,birch03/current/quota|birch04/current/quota
+official_both_named,20261125,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+official_both_named,20261125,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261125,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261125,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261125,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261125,birch03-compare,compare the current export file limit of birch03 and the other tool,all_targeted,all_targeted,0,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261125,birch03-compare,compare the current export file limit of birch03 and the other tool,gap,gap,0,grounded,3,9,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261125,birch03-compare,compare the current export file limit of birch03 and the other tool,calibrated,all_targeted,0,grounded,2,6,birch03/current/quota|birch04/current/quota
+official_both_named,20261125,birch05-compare,compare the current export quota of birch05 and birch06,all_targeted,all_targeted,2,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261125,birch05-compare,compare the current export quota of birch05 and birch06,gap,gap,2,grounded,1,3,birch05/current/quota|birch06/current/quota
+official_both_named,20261125,birch05-compare,compare the current export quota of birch05 and birch06,calibrated,gap,2,grounded,1,3,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261125,birch05-compare,compare the current export quota of birch05 and birch06,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261125,birch05-compare,compare the current export quota of birch05 and birch06,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261125,birch05-compare,compare the current export quota of birch05 and birch06,calibrated,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261125,birch05-compare,compare the current export quota of birch05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261125,birch05-compare,compare the current export quota of birch05 and the other tool,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261125,birch05-compare,compare the current export quota of birch05 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261125,coral01-compare,compare the current export quota of coral01 and coral02,all_targeted,all_targeted,1,grounded,2,5,coral01/current/quota|coral02/current/quota
+official_both_named,20261125,coral01-compare,compare the current export quota of coral01 and coral02,gap,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+official_both_named,20261125,coral01-compare,compare the current export quota of coral01 and coral02,calibrated,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261125,coral01-compare,compare the current export quota of coral01 and coral02,all_targeted,all_targeted,0,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261125,coral01-compare,compare the current export quota of coral01 and coral02,gap,gap,0,grounded,3,9,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261125,coral01-compare,compare the current export quota of coral01 and coral02,calibrated,gap,0,grounded,3,9,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261125,coral01-compare,compare the current export quota of coral01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261125,coral01-compare,compare the current export quota of coral01 and the other tool,gap,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261125,coral01-compare,compare the current export quota of coral01 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+official_both_named,20261125,coral03-compare,compare the current export file limit of coral03 and coral04,all_targeted,all_targeted,0,grounded,2,5,coral03/current/quota|coral04/current/quota
+official_both_named,20261125,coral03-compare,compare the current export file limit of coral03 and coral04,gap,gap,0,grounded,3,8,coral03/current/quota|coral04/current/quota
+official_both_named,20261125,coral03-compare,compare the current export file limit of coral03 and coral04,calibrated,gap,0,grounded,3,8,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261125,coral03-compare,compare the current export file limit of coral03 and coral04,all_targeted,all_targeted,0,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261125,coral03-compare,compare the current export file limit of coral03 and coral04,gap,gap,0,grounded,3,9,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261125,coral03-compare,compare the current export file limit of coral03 and coral04,calibrated,gap,0,grounded,3,9,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261125,coral03-compare,compare the current export file limit of coral03 and the other tool,all_targeted,all_targeted,0,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261125,coral03-compare,compare the current export file limit of coral03 and the other tool,gap,gap,0,grounded,3,9,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261125,coral03-compare,compare the current export file limit of coral03 and the other tool,calibrated,all_targeted,0,grounded,2,6,coral03/current/quota|coral04/current/quota
+official_both_named,20261125,coral05-compare,compare the current export file limit of coral05 and coral06,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261125,coral05-compare,compare the current export file limit of coral05 and coral06,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261125,coral05-compare,compare the current export file limit of coral05 and coral06,calibrated,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261125,coral05-compare,compare the current export file limit of coral05 and coral06,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261125,coral05-compare,compare the current export file limit of coral05 and coral06,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261125,coral05-compare,compare the current export file limit of coral05 and coral06,calibrated,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261125,coral05-compare,compare the current export file limit of coral05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261125,coral05-compare,compare the current export file limit of coral05 and the other tool,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261125,coral05-compare,compare the current export file limit of coral05 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261125,dune01-compare,compare the current file export allowance of dune01 and dune02,all_targeted,all_targeted,2,grounded,2,5,dune01/current/quota|dune02/current/quota
+official_both_named,20261125,dune01-compare,compare the current file export allowance of dune01 and dune02,gap,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+official_both_named,20261125,dune01-compare,compare the current file export allowance of dune01 and dune02,calibrated,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261125,dune01-compare,compare the current file export allowance of dune01 and dune02,all_targeted,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261125,dune01-compare,compare the current file export allowance of dune01 and dune02,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261125,dune01-compare,compare the current file export allowance of dune01 and dune02,calibrated,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261125,dune01-compare,compare the current file export allowance of dune01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261125,dune01-compare,compare the current file export allowance of dune01 and the other tool,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261125,dune01-compare,compare the current file export allowance of dune01 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+official_both_named,20261125,dune03-compare,compare the current file export allowance of dune03 and dune04,all_targeted,all_targeted,2,grounded,2,5,dune03/current/quota|dune04/current/quota
+official_both_named,20261125,dune03-compare,compare the current file export allowance of dune03 and dune04,gap,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+official_both_named,20261125,dune03-compare,compare the current file export allowance of dune03 and dune04,calibrated,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261125,dune03-compare,compare the current file export allowance of dune03 and dune04,all_targeted,all_targeted,0,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261125,dune03-compare,compare the current file export allowance of dune03 and dune04,gap,gap,0,grounded,3,9,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261125,dune03-compare,compare the current file export allowance of dune03 and dune04,calibrated,gap,0,grounded,3,9,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261125,dune03-compare,compare the current file export allowance of dune03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261125,dune03-compare,compare the current file export allowance of dune03 and the other tool,gap,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261125,dune03-compare,compare the current file export allowance of dune03 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+official_both_named,20261125,dune05-compare,compare the current export file limit of dune05 and dune06,all_targeted,all_targeted,0,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261125,dune05-compare,compare the current export file limit of dune05 and dune06,gap,gap,0,grounded,3,9,dune05/current/quota|dune06/current/quota
+official_both_named,20261125,dune05-compare,compare the current export file limit of dune05 and dune06,calibrated,gap,0,grounded,3,9,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261125,dune05-compare,compare the current export file limit of dune05 and dune06,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261125,dune05-compare,compare the current export file limit of dune05 and dune06,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261125,dune05-compare,compare the current export file limit of dune05 and dune06,calibrated,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261125,dune05-compare,compare the current export file limit of dune05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261125,dune05-compare,compare the current export file limit of dune05 and the other tool,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261125,dune05-compare,compare the current export file limit of dune05 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261125,elm01-compare,compare the current export file limit of elm01 and elm02,all_targeted,all_targeted,1,grounded,2,5,elm01/current/quota|elm02/current/quota
+official_both_named,20261125,elm01-compare,compare the current export file limit of elm01 and elm02,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+official_both_named,20261125,elm01-compare,compare the current export file limit of elm01 and elm02,calibrated,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261125,elm01-compare,compare the current export file limit of elm01 and elm02,all_targeted,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261125,elm01-compare,compare the current export file limit of elm01 and elm02,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261125,elm01-compare,compare the current export file limit of elm01 and elm02,calibrated,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261125,elm01-compare,compare the current export file limit of elm01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261125,elm01-compare,compare the current export file limit of elm01 and the other tool,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261125,elm01-compare,compare the current export file limit of elm01 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+official_both_named,20261125,elm03-compare,compare the current export quota of elm03 and elm04,all_targeted,all_targeted,1,grounded,2,5,elm03/current/quota|elm04/current/quota
+official_both_named,20261125,elm03-compare,compare the current export quota of elm03 and elm04,gap,gap,1,grounded,2,5,elm03/current/quota|elm04/current/quota
+official_both_named,20261125,elm03-compare,compare the current export quota of elm03 and elm04,calibrated,gap,1,grounded,2,5,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261125,elm03-compare,compare the current export quota of elm03 and elm04,all_targeted,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261125,elm03-compare,compare the current export quota of elm03 and elm04,gap,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261125,elm03-compare,compare the current export quota of elm03 and elm04,calibrated,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261125,elm03-compare,compare the current export quota of elm03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261125,elm03-compare,compare the current export quota of elm03 and the other tool,gap,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261125,elm03-compare,compare the current export quota of elm03 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+official_both_named,20261125,elm05-compare,compare the current file export allowance of elm05 and elm06,all_targeted,all_targeted,2,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261125,elm05-compare,compare the current file export allowance of elm05 and elm06,gap,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+official_both_named,20261125,elm05-compare,compare the current file export allowance of elm05 and elm06,calibrated,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261125,elm05-compare,compare the current file export allowance of elm05 and elm06,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261125,elm05-compare,compare the current file export allowance of elm05 and elm06,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261125,elm05-compare,compare the current file export allowance of elm05 and elm06,calibrated,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261125,elm05-compare,compare the current file export allowance of elm05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261125,elm05-compare,compare the current file export allowance of elm05 and the other tool,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261125,elm05-compare,compare the current file export allowance of elm05 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261125,firth01-compare,compare the current export quota of firth01 and firth02,all_targeted,all_targeted,2,grounded,2,5,firth01/current/quota|firth02/current/quota
+official_both_named,20261125,firth01-compare,compare the current export quota of firth01 and firth02,gap,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+official_both_named,20261125,firth01-compare,compare the current export quota of firth01 and firth02,calibrated,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261125,firth01-compare,compare the current export quota of firth01 and firth02,all_targeted,all_targeted,2,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261125,firth01-compare,compare the current export quota of firth01 and firth02,gap,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261125,firth01-compare,compare the current export quota of firth01 and firth02,calibrated,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261125,firth01-compare,compare the current export quota of firth01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261125,firth01-compare,compare the current export quota of firth01 and the other tool,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261125,firth01-compare,compare the current export quota of firth01 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+official_both_named,20261125,firth03-compare,compare the current file export allowance of firth03 and firth04,all_targeted,all_targeted,2,grounded,2,5,firth03/current/quota|firth04/current/quota
+official_both_named,20261125,firth03-compare,compare the current file export allowance of firth03 and firth04,gap,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+official_both_named,20261125,firth03-compare,compare the current file export allowance of firth03 and firth04,calibrated,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261125,firth03-compare,compare the current file export allowance of firth03 and firth04,all_targeted,all_targeted,0,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261125,firth03-compare,compare the current file export allowance of firth03 and firth04,gap,gap,0,grounded,3,9,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261125,firth03-compare,compare the current file export allowance of firth03 and firth04,calibrated,gap,0,grounded,3,9,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261125,firth03-compare,compare the current file export allowance of firth03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261125,firth03-compare,compare the current file export allowance of firth03 and the other tool,gap,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261125,firth03-compare,compare the current file export allowance of firth03 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+official_both_named,20261125,firth05-compare,compare the current file export allowance of firth05 and firth06,all_targeted,all_targeted,2,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261125,firth05-compare,compare the current file export allowance of firth05 and firth06,gap,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+official_both_named,20261125,firth05-compare,compare the current file export allowance of firth05 and firth06,calibrated,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261125,firth05-compare,compare the current file export allowance of firth05 and firth06,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261125,firth05-compare,compare the current file export allowance of firth05 and firth06,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261125,firth05-compare,compare the current file export allowance of firth05 and firth06,calibrated,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261125,firth05-compare,compare the current file export allowance of firth05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261125,firth05-compare,compare the current file export allowance of firth05 and the other tool,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261125,firth05-compare,compare the current file export allowance of firth05 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261126,aster01-compare,compare the current file export allowance of aster01 and aster02,all_targeted,all_targeted,1,grounded,2,5,aster01/current/quota|aster02/current/quota
+official_both_named,20261126,aster01-compare,compare the current file export allowance of aster01 and aster02,gap,gap,1,grounded,2,5,aster01/current/quota|aster02/current/quota
+official_both_named,20261126,aster01-compare,compare the current file export allowance of aster01 and aster02,calibrated,gap,1,grounded,2,5,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261126,aster01-compare,compare the current file export allowance of aster01 and aster02,all_targeted,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261126,aster01-compare,compare the current file export allowance of aster01 and aster02,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261126,aster01-compare,compare the current file export allowance of aster01 and aster02,calibrated,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261126,aster01-compare,compare the current file export allowance of aster01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261126,aster01-compare,compare the current file export allowance of aster01 and the other tool,gap,gap,0,grounded,3,9,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261126,aster01-compare,compare the current file export allowance of aster01 and the other tool,calibrated,all_targeted,0,grounded,2,6,aster01/current/quota|aster02/current/quota
+official_both_named,20261126,aster03-compare,compare the current file export allowance of aster03 and aster04,all_targeted,all_targeted,2,grounded,2,5,aster03/current/quota|aster04/current/quota
+official_both_named,20261126,aster03-compare,compare the current file export allowance of aster03 and aster04,gap,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+official_both_named,20261126,aster03-compare,compare the current file export allowance of aster03 and aster04,calibrated,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261126,aster03-compare,compare the current file export allowance of aster03 and aster04,all_targeted,all_targeted,2,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261126,aster03-compare,compare the current file export allowance of aster03 and aster04,gap,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261126,aster03-compare,compare the current file export allowance of aster03 and aster04,calibrated,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261126,aster03-compare,compare the current file export allowance of aster03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261126,aster03-compare,compare the current file export allowance of aster03 and the other tool,gap,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261126,aster03-compare,compare the current file export allowance of aster03 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+official_both_named,20261126,aster05-compare,compare the current export file limit of aster05 and aster06,all_targeted,all_targeted,2,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261126,aster05-compare,compare the current export file limit of aster05 and aster06,gap,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+official_both_named,20261126,aster05-compare,compare the current export file limit of aster05 and aster06,calibrated,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261126,aster05-compare,compare the current export file limit of aster05 and aster06,all_targeted,all_targeted,2,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261126,aster05-compare,compare the current export file limit of aster05 and aster06,gap,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261126,aster05-compare,compare the current export file limit of aster05 and aster06,calibrated,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261126,aster05-compare,compare the current export file limit of aster05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261126,aster05-compare,compare the current export file limit of aster05 and the other tool,gap,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261126,aster05-compare,compare the current export file limit of aster05 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261126,birch01-compare,compare the current export quota of birch01 and birch02,all_targeted,all_targeted,2,grounded,2,5,birch01/current/quota|birch02/current/quota
+official_both_named,20261126,birch01-compare,compare the current export quota of birch01 and birch02,gap,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+official_both_named,20261126,birch01-compare,compare the current export quota of birch01 and birch02,calibrated,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261126,birch01-compare,compare the current export quota of birch01 and birch02,all_targeted,all_targeted,2,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261126,birch01-compare,compare the current export quota of birch01 and birch02,gap,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261126,birch01-compare,compare the current export quota of birch01 and birch02,calibrated,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261126,birch01-compare,compare the current export quota of birch01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261126,birch01-compare,compare the current export quota of birch01 and the other tool,gap,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261126,birch01-compare,compare the current export quota of birch01 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+official_both_named,20261126,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,2,grounded,2,5,birch03/current/quota|birch04/current/quota
+official_both_named,20261126,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+official_both_named,20261126,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261126,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261126,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261126,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261126,birch03-compare,compare the current export file limit of birch03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261126,birch03-compare,compare the current export file limit of birch03 and the other tool,gap,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261126,birch03-compare,compare the current export file limit of birch03 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+official_both_named,20261126,birch05-compare,compare the current export file limit of birch05 and birch06,all_targeted,all_targeted,2,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261126,birch05-compare,compare the current export file limit of birch05 and birch06,gap,gap,2,grounded,1,3,birch05/current/quota|birch06/current/quota
+official_both_named,20261126,birch05-compare,compare the current export file limit of birch05 and birch06,calibrated,gap,2,grounded,1,3,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261126,birch05-compare,compare the current export file limit of birch05 and birch06,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261126,birch05-compare,compare the current export file limit of birch05 and birch06,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261126,birch05-compare,compare the current export file limit of birch05 and birch06,calibrated,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261126,birch05-compare,compare the current export file limit of birch05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261126,birch05-compare,compare the current export file limit of birch05 and the other tool,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261126,birch05-compare,compare the current export file limit of birch05 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261126,coral01-compare,compare the current file export allowance of coral01 and coral02,all_targeted,all_targeted,2,grounded,2,5,coral01/current/quota|coral02/current/quota
+official_both_named,20261126,coral01-compare,compare the current file export allowance of coral01 and coral02,gap,gap,2,grounded,1,3,coral01/current/quota|coral02/current/quota
+official_both_named,20261126,coral01-compare,compare the current file export allowance of coral01 and coral02,calibrated,gap,2,grounded,1,3,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261126,coral01-compare,compare the current file export allowance of coral01 and coral02,all_targeted,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261126,coral01-compare,compare the current file export allowance of coral01 and coral02,gap,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261126,coral01-compare,compare the current file export allowance of coral01 and coral02,calibrated,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261126,coral01-compare,compare the current file export allowance of coral01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261126,coral01-compare,compare the current file export allowance of coral01 and the other tool,gap,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261126,coral01-compare,compare the current file export allowance of coral01 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+official_both_named,20261126,coral03-compare,compare the current export quota of coral03 and coral04,all_targeted,all_targeted,2,grounded,2,5,coral03/current/quota|coral04/current/quota
+official_both_named,20261126,coral03-compare,compare the current export quota of coral03 and coral04,gap,gap,2,grounded,1,3,coral03/current/quota|coral04/current/quota
+official_both_named,20261126,coral03-compare,compare the current export quota of coral03 and coral04,calibrated,gap,2,grounded,1,3,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261126,coral03-compare,compare the current export quota of coral03 and coral04,all_targeted,all_targeted,0,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261126,coral03-compare,compare the current export quota of coral03 and coral04,gap,gap,0,grounded,3,9,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261126,coral03-compare,compare the current export quota of coral03 and coral04,calibrated,gap,0,grounded,3,9,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261126,coral03-compare,compare the current export quota of coral03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261126,coral03-compare,compare the current export quota of coral03 and the other tool,gap,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261126,coral03-compare,compare the current export quota of coral03 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+official_both_named,20261126,coral05-compare,compare the current export file limit of coral05 and coral06,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261126,coral05-compare,compare the current export file limit of coral05 and coral06,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261126,coral05-compare,compare the current export file limit of coral05 and coral06,calibrated,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261126,coral05-compare,compare the current export file limit of coral05 and coral06,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261126,coral05-compare,compare the current export file limit of coral05 and coral06,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261126,coral05-compare,compare the current export file limit of coral05 and coral06,calibrated,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261126,coral05-compare,compare the current export file limit of coral05 and the other tool,all_targeted,all_targeted,0,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261126,coral05-compare,compare the current export file limit of coral05 and the other tool,gap,gap,0,grounded,3,9,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261126,coral05-compare,compare the current export file limit of coral05 and the other tool,calibrated,all_targeted,0,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261126,dune01-compare,compare the current export quota of dune01 and dune02,all_targeted,all_targeted,2,grounded,2,5,dune01/current/quota|dune02/current/quota
+official_both_named,20261126,dune01-compare,compare the current export quota of dune01 and dune02,gap,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+official_both_named,20261126,dune01-compare,compare the current export quota of dune01 and dune02,calibrated,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261126,dune01-compare,compare the current export quota of dune01 and dune02,all_targeted,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261126,dune01-compare,compare the current export quota of dune01 and dune02,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261126,dune01-compare,compare the current export quota of dune01 and dune02,calibrated,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261126,dune01-compare,compare the current export quota of dune01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261126,dune01-compare,compare the current export quota of dune01 and the other tool,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261126,dune01-compare,compare the current export quota of dune01 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+official_both_named,20261126,dune03-compare,compare the current export file limit of dune03 and dune04,all_targeted,all_targeted,1,grounded,2,5,dune03/current/quota|dune04/current/quota
+official_both_named,20261126,dune03-compare,compare the current export file limit of dune03 and dune04,gap,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+official_both_named,20261126,dune03-compare,compare the current export file limit of dune03 and dune04,calibrated,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261126,dune03-compare,compare the current export file limit of dune03 and dune04,all_targeted,all_targeted,0,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261126,dune03-compare,compare the current export file limit of dune03 and dune04,gap,gap,0,grounded,3,9,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261126,dune03-compare,compare the current export file limit of dune03 and dune04,calibrated,gap,0,grounded,3,9,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261126,dune03-compare,compare the current export file limit of dune03 and the other tool,all_targeted,all_targeted,0,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261126,dune03-compare,compare the current export file limit of dune03 and the other tool,gap,gap,0,grounded,3,9,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261126,dune03-compare,compare the current export file limit of dune03 and the other tool,calibrated,all_targeted,0,grounded,2,6,dune03/current/quota|dune04/current/quota
+official_both_named,20261126,dune05-compare,compare the current file export allowance of dune05 and dune06,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261126,dune05-compare,compare the current file export allowance of dune05 and dune06,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261126,dune05-compare,compare the current file export allowance of dune05 and dune06,calibrated,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261126,dune05-compare,compare the current file export allowance of dune05 and dune06,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261126,dune05-compare,compare the current file export allowance of dune05 and dune06,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261126,dune05-compare,compare the current file export allowance of dune05 and dune06,calibrated,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261126,dune05-compare,compare the current file export allowance of dune05 and the other tool,all_targeted,all_targeted,0,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261126,dune05-compare,compare the current file export allowance of dune05 and the other tool,gap,gap,0,grounded,3,9,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261126,dune05-compare,compare the current file export allowance of dune05 and the other tool,calibrated,all_targeted,0,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261126,elm01-compare,compare the current export file limit of elm01 and elm02,all_targeted,all_targeted,1,grounded,2,5,elm01/current/quota|elm02/current/quota
+official_both_named,20261126,elm01-compare,compare the current export file limit of elm01 and elm02,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+official_both_named,20261126,elm01-compare,compare the current export file limit of elm01 and elm02,calibrated,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261126,elm01-compare,compare the current export file limit of elm01 and elm02,all_targeted,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261126,elm01-compare,compare the current export file limit of elm01 and elm02,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261126,elm01-compare,compare the current export file limit of elm01 and elm02,calibrated,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261126,elm01-compare,compare the current export file limit of elm01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261126,elm01-compare,compare the current export file limit of elm01 and the other tool,gap,gap,0,grounded,3,9,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261126,elm01-compare,compare the current export file limit of elm01 and the other tool,calibrated,all_targeted,0,grounded,2,6,elm01/current/quota|elm02/current/quota
+official_both_named,20261126,elm03-compare,compare the current file export allowance of elm03 and elm04,all_targeted,all_targeted,1,grounded,2,5,elm03/current/quota|elm04/current/quota
+official_both_named,20261126,elm03-compare,compare the current file export allowance of elm03 and elm04,gap,gap,1,grounded,2,5,elm03/current/quota|elm04/current/quota
+official_both_named,20261126,elm03-compare,compare the current file export allowance of elm03 and elm04,calibrated,gap,1,grounded,2,5,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261126,elm03-compare,compare the current file export allowance of elm03 and elm04,all_targeted,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261126,elm03-compare,compare the current file export allowance of elm03 and elm04,gap,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261126,elm03-compare,compare the current file export allowance of elm03 and elm04,calibrated,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261126,elm03-compare,compare the current file export allowance of elm03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261126,elm03-compare,compare the current file export allowance of elm03 and the other tool,gap,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261126,elm03-compare,compare the current file export allowance of elm03 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+official_both_named,20261126,elm05-compare,compare the current export file limit of elm05 and elm06,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261126,elm05-compare,compare the current export file limit of elm05 and elm06,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261126,elm05-compare,compare the current export file limit of elm05 and elm06,calibrated,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261126,elm05-compare,compare the current export file limit of elm05 and elm06,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261126,elm05-compare,compare the current export file limit of elm05 and elm06,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261126,elm05-compare,compare the current export file limit of elm05 and elm06,calibrated,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261126,elm05-compare,compare the current export file limit of elm05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261126,elm05-compare,compare the current export file limit of elm05 and the other tool,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261126,elm05-compare,compare the current export file limit of elm05 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261126,firth01-compare,compare the current export quota of firth01 and firth02,all_targeted,all_targeted,2,grounded,2,5,firth01/current/quota|firth02/current/quota
+official_both_named,20261126,firth01-compare,compare the current export quota of firth01 and firth02,gap,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+official_both_named,20261126,firth01-compare,compare the current export quota of firth01 and firth02,calibrated,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261126,firth01-compare,compare the current export quota of firth01 and firth02,all_targeted,all_targeted,2,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261126,firth01-compare,compare the current export quota of firth01 and firth02,gap,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261126,firth01-compare,compare the current export quota of firth01 and firth02,calibrated,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261126,firth01-compare,compare the current export quota of firth01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261126,firth01-compare,compare the current export quota of firth01 and the other tool,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261126,firth01-compare,compare the current export quota of firth01 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+official_both_named,20261126,firth03-compare,compare the current file export allowance of firth03 and firth04,all_targeted,all_targeted,2,grounded,2,5,firth03/current/quota|firth04/current/quota
+official_both_named,20261126,firth03-compare,compare the current file export allowance of firth03 and firth04,gap,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+official_both_named,20261126,firth03-compare,compare the current file export allowance of firth03 and firth04,calibrated,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261126,firth03-compare,compare the current file export allowance of firth03 and firth04,all_targeted,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261126,firth03-compare,compare the current file export allowance of firth03 and firth04,gap,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261126,firth03-compare,compare the current file export allowance of firth03 and firth04,calibrated,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261126,firth03-compare,compare the current file export allowance of firth03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261126,firth03-compare,compare the current file export allowance of firth03 and the other tool,gap,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261126,firth03-compare,compare the current file export allowance of firth03 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+official_both_named,20261126,firth05-compare,compare the current export file limit of firth05 and firth06,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261126,firth05-compare,compare the current export file limit of firth05 and firth06,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261126,firth05-compare,compare the current export file limit of firth05 and firth06,calibrated,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261126,firth05-compare,compare the current export file limit of firth05 and firth06,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261126,firth05-compare,compare the current export file limit of firth05 and firth06,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261126,firth05-compare,compare the current export file limit of firth05 and firth06,calibrated,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261126,firth05-compare,compare the current export file limit of firth05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261126,firth05-compare,compare the current export file limit of firth05 and the other tool,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261126,firth05-compare,compare the current export file limit of firth05 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261127,aster01-compare,compare the current export quota of aster01 and aster02,all_targeted,all_targeted,2,grounded,2,5,aster01/current/quota|aster02/current/quota
+official_both_named,20261127,aster01-compare,compare the current export quota of aster01 and aster02,gap,gap,2,grounded,1,3,aster01/current/quota|aster02/current/quota
+official_both_named,20261127,aster01-compare,compare the current export quota of aster01 and aster02,calibrated,gap,2,grounded,1,3,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261127,aster01-compare,compare the current export quota of aster01 and aster02,all_targeted,all_targeted,0,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261127,aster01-compare,compare the current export quota of aster01 and aster02,gap,gap,0,grounded,3,9,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261127,aster01-compare,compare the current export quota of aster01 and aster02,calibrated,gap,0,grounded,3,9,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261127,aster01-compare,compare the current export quota of aster01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261127,aster01-compare,compare the current export quota of aster01 and the other tool,gap,gap,0,grounded,3,9,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261127,aster01-compare,compare the current export quota of aster01 and the other tool,calibrated,all_targeted,0,grounded,2,6,aster01/current/quota|aster02/current/quota
+official_both_named,20261127,aster03-compare,compare the current file export allowance of aster03 and aster04,all_targeted,all_targeted,1,grounded,2,5,aster03/current/quota|aster04/current/quota
+official_both_named,20261127,aster03-compare,compare the current file export allowance of aster03 and aster04,gap,gap,1,grounded,2,5,aster03/current/quota|aster04/current/quota
+official_both_named,20261127,aster03-compare,compare the current file export allowance of aster03 and aster04,calibrated,gap,1,grounded,2,5,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261127,aster03-compare,compare the current file export allowance of aster03 and aster04,all_targeted,all_targeted,0,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261127,aster03-compare,compare the current file export allowance of aster03 and aster04,gap,gap,0,grounded,3,9,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261127,aster03-compare,compare the current file export allowance of aster03 and aster04,calibrated,gap,0,grounded,3,9,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261127,aster03-compare,compare the current file export allowance of aster03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261127,aster03-compare,compare the current file export allowance of aster03 and the other tool,gap,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261127,aster03-compare,compare the current file export allowance of aster03 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+official_both_named,20261127,aster05-compare,compare the current export file limit of aster05 and aster06,all_targeted,all_targeted,2,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261127,aster05-compare,compare the current export file limit of aster05 and aster06,gap,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+official_both_named,20261127,aster05-compare,compare the current export file limit of aster05 and aster06,calibrated,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261127,aster05-compare,compare the current export file limit of aster05 and aster06,all_targeted,all_targeted,2,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261127,aster05-compare,compare the current export file limit of aster05 and aster06,gap,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261127,aster05-compare,compare the current export file limit of aster05 and aster06,calibrated,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261127,aster05-compare,compare the current export file limit of aster05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261127,aster05-compare,compare the current export file limit of aster05 and the other tool,gap,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261127,aster05-compare,compare the current export file limit of aster05 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261127,birch01-compare,compare the current export quota of birch01 and birch02,all_targeted,all_targeted,2,grounded,2,5,birch01/current/quota|birch02/current/quota
+official_both_named,20261127,birch01-compare,compare the current export quota of birch01 and birch02,gap,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+official_both_named,20261127,birch01-compare,compare the current export quota of birch01 and birch02,calibrated,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261127,birch01-compare,compare the current export quota of birch01 and birch02,all_targeted,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261127,birch01-compare,compare the current export quota of birch01 and birch02,gap,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261127,birch01-compare,compare the current export quota of birch01 and birch02,calibrated,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261127,birch01-compare,compare the current export quota of birch01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261127,birch01-compare,compare the current export quota of birch01 and the other tool,gap,gap,0,grounded,3,9,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261127,birch01-compare,compare the current export quota of birch01 and the other tool,calibrated,all_targeted,0,grounded,2,6,birch01/current/quota|birch02/current/quota
+official_both_named,20261127,birch03-compare,compare the current export quota of birch03 and birch04,all_targeted,all_targeted,2,grounded,2,5,birch03/current/quota|birch04/current/quota
+official_both_named,20261127,birch03-compare,compare the current export quota of birch03 and birch04,gap,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+official_both_named,20261127,birch03-compare,compare the current export quota of birch03 and birch04,calibrated,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261127,birch03-compare,compare the current export quota of birch03 and birch04,all_targeted,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261127,birch03-compare,compare the current export quota of birch03 and birch04,gap,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261127,birch03-compare,compare the current export quota of birch03 and birch04,calibrated,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261127,birch03-compare,compare the current export quota of birch03 and the other tool,all_targeted,all_targeted,0,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261127,birch03-compare,compare the current export quota of birch03 and the other tool,gap,gap,0,grounded,3,9,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261127,birch03-compare,compare the current export quota of birch03 and the other tool,calibrated,all_targeted,0,grounded,2,6,birch03/current/quota|birch04/current/quota
+official_both_named,20261127,birch05-compare,compare the current export file limit of birch05 and birch06,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261127,birch05-compare,compare the current export file limit of birch05 and birch06,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261127,birch05-compare,compare the current export file limit of birch05 and birch06,calibrated,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261127,birch05-compare,compare the current export file limit of birch05 and birch06,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261127,birch05-compare,compare the current export file limit of birch05 and birch06,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261127,birch05-compare,compare the current export file limit of birch05 and birch06,calibrated,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261127,birch05-compare,compare the current export file limit of birch05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261127,birch05-compare,compare the current export file limit of birch05 and the other tool,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261127,birch05-compare,compare the current export file limit of birch05 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261127,coral01-compare,compare the current export quota of coral01 and coral02,all_targeted,all_targeted,1,grounded,2,5,coral01/current/quota|coral02/current/quota
+official_both_named,20261127,coral01-compare,compare the current export quota of coral01 and coral02,gap,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+official_both_named,20261127,coral01-compare,compare the current export quota of coral01 and coral02,calibrated,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261127,coral01-compare,compare the current export quota of coral01 and coral02,all_targeted,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261127,coral01-compare,compare the current export quota of coral01 and coral02,gap,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261127,coral01-compare,compare the current export quota of coral01 and coral02,calibrated,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261127,coral01-compare,compare the current export quota of coral01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261127,coral01-compare,compare the current export quota of coral01 and the other tool,gap,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261127,coral01-compare,compare the current export quota of coral01 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+official_both_named,20261127,coral03-compare,compare the current export quota of coral03 and coral04,all_targeted,all_targeted,2,grounded,2,5,coral03/current/quota|coral04/current/quota
+official_both_named,20261127,coral03-compare,compare the current export quota of coral03 and coral04,gap,gap,2,grounded,1,3,coral03/current/quota|coral04/current/quota
+official_both_named,20261127,coral03-compare,compare the current export quota of coral03 and coral04,calibrated,gap,2,grounded,1,3,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261127,coral03-compare,compare the current export quota of coral03 and coral04,all_targeted,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261127,coral03-compare,compare the current export quota of coral03 and coral04,gap,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261127,coral03-compare,compare the current export quota of coral03 and coral04,calibrated,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261127,coral03-compare,compare the current export quota of coral03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261127,coral03-compare,compare the current export quota of coral03 and the other tool,gap,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261127,coral03-compare,compare the current export quota of coral03 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+official_both_named,20261127,coral05-compare,compare the current file export allowance of coral05 and coral06,all_targeted,all_targeted,2,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261127,coral05-compare,compare the current file export allowance of coral05 and coral06,gap,gap,2,grounded,1,3,coral05/current/quota|coral06/current/quota
+official_both_named,20261127,coral05-compare,compare the current file export allowance of coral05 and coral06,calibrated,gap,2,grounded,1,3,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261127,coral05-compare,compare the current file export allowance of coral05 and coral06,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261127,coral05-compare,compare the current file export allowance of coral05 and coral06,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261127,coral05-compare,compare the current file export allowance of coral05 and coral06,calibrated,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261127,coral05-compare,compare the current file export allowance of coral05 and the other tool,all_targeted,all_targeted,0,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261127,coral05-compare,compare the current file export allowance of coral05 and the other tool,gap,gap,0,grounded,3,9,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261127,coral05-compare,compare the current file export allowance of coral05 and the other tool,calibrated,all_targeted,0,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261127,dune01-compare,compare the current export file limit of dune01 and dune02,all_targeted,all_targeted,2,grounded,2,5,dune01/current/quota|dune02/current/quota
+official_both_named,20261127,dune01-compare,compare the current export file limit of dune01 and dune02,gap,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+official_both_named,20261127,dune01-compare,compare the current export file limit of dune01 and dune02,calibrated,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261127,dune01-compare,compare the current export file limit of dune01 and dune02,all_targeted,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261127,dune01-compare,compare the current export file limit of dune01 and dune02,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261127,dune01-compare,compare the current export file limit of dune01 and dune02,calibrated,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261127,dune01-compare,compare the current export file limit of dune01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261127,dune01-compare,compare the current export file limit of dune01 and the other tool,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261127,dune01-compare,compare the current export file limit of dune01 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+official_both_named,20261127,dune03-compare,compare the current export file limit of dune03 and dune04,all_targeted,all_targeted,2,grounded,2,5,dune03/current/quota|dune04/current/quota
+official_both_named,20261127,dune03-compare,compare the current export file limit of dune03 and dune04,gap,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+official_both_named,20261127,dune03-compare,compare the current export file limit of dune03 and dune04,calibrated,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261127,dune03-compare,compare the current export file limit of dune03 and dune04,all_targeted,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261127,dune03-compare,compare the current export file limit of dune03 and dune04,gap,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261127,dune03-compare,compare the current export file limit of dune03 and dune04,calibrated,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261127,dune03-compare,compare the current export file limit of dune03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261127,dune03-compare,compare the current export file limit of dune03 and the other tool,gap,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261127,dune03-compare,compare the current export file limit of dune03 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+official_both_named,20261127,dune05-compare,compare the current export file limit of dune05 and dune06,all_targeted,all_targeted,2,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261127,dune05-compare,compare the current export file limit of dune05 and dune06,gap,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+official_both_named,20261127,dune05-compare,compare the current export file limit of dune05 and dune06,calibrated,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261127,dune05-compare,compare the current export file limit of dune05 and dune06,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261127,dune05-compare,compare the current export file limit of dune05 and dune06,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261127,dune05-compare,compare the current export file limit of dune05 and dune06,calibrated,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261127,dune05-compare,compare the current export file limit of dune05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261127,dune05-compare,compare the current export file limit of dune05 and the other tool,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261127,dune05-compare,compare the current export file limit of dune05 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261127,elm01-compare,compare the current export file limit of elm01 and elm02,all_targeted,all_targeted,2,grounded,2,5,elm01/current/quota|elm02/current/quota
+official_both_named,20261127,elm01-compare,compare the current export file limit of elm01 and elm02,gap,gap,2,grounded,1,3,elm01/current/quota|elm02/current/quota
+official_both_named,20261127,elm01-compare,compare the current export file limit of elm01 and elm02,calibrated,gap,2,grounded,1,3,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261127,elm01-compare,compare the current export file limit of elm01 and elm02,all_targeted,all_targeted,0,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261127,elm01-compare,compare the current export file limit of elm01 and elm02,gap,gap,0,grounded,3,9,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261127,elm01-compare,compare the current export file limit of elm01 and elm02,calibrated,gap,0,grounded,3,9,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261127,elm01-compare,compare the current export file limit of elm01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261127,elm01-compare,compare the current export file limit of elm01 and the other tool,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261127,elm01-compare,compare the current export file limit of elm01 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+official_both_named,20261127,elm03-compare,compare the current export quota of elm03 and elm04,all_targeted,all_targeted,2,grounded,2,5,elm03/current/quota|elm04/current/quota
+official_both_named,20261127,elm03-compare,compare the current export quota of elm03 and elm04,gap,gap,2,grounded,1,3,elm03/current/quota|elm04/current/quota
+official_both_named,20261127,elm03-compare,compare the current export quota of elm03 and elm04,calibrated,gap,2,grounded,1,3,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261127,elm03-compare,compare the current export quota of elm03 and elm04,all_targeted,all_targeted,2,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261127,elm03-compare,compare the current export quota of elm03 and elm04,gap,gap,2,grounded,1,3,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261127,elm03-compare,compare the current export quota of elm03 and elm04,calibrated,gap,2,grounded,1,3,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261127,elm03-compare,compare the current export quota of elm03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261127,elm03-compare,compare the current export quota of elm03 and the other tool,gap,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261127,elm03-compare,compare the current export quota of elm03 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+official_both_named,20261127,elm05-compare,compare the current file export allowance of elm05 and elm06,all_targeted,all_targeted,2,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261127,elm05-compare,compare the current file export allowance of elm05 and elm06,gap,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+official_both_named,20261127,elm05-compare,compare the current file export allowance of elm05 and elm06,calibrated,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261127,elm05-compare,compare the current file export allowance of elm05 and elm06,all_targeted,all_targeted,2,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261127,elm05-compare,compare the current file export allowance of elm05 and elm06,gap,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261127,elm05-compare,compare the current file export allowance of elm05 and elm06,calibrated,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261127,elm05-compare,compare the current file export allowance of elm05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261127,elm05-compare,compare the current file export allowance of elm05 and the other tool,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261127,elm05-compare,compare the current file export allowance of elm05 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261127,firth01-compare,compare the current file export allowance of firth01 and firth02,all_targeted,all_targeted,2,grounded,2,5,firth01/current/quota|firth02/current/quota
+official_both_named,20261127,firth01-compare,compare the current file export allowance of firth01 and firth02,gap,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+official_both_named,20261127,firth01-compare,compare the current file export allowance of firth01 and firth02,calibrated,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261127,firth01-compare,compare the current file export allowance of firth01 and firth02,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261127,firth01-compare,compare the current file export allowance of firth01 and firth02,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261127,firth01-compare,compare the current file export allowance of firth01 and firth02,calibrated,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261127,firth01-compare,compare the current file export allowance of firth01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261127,firth01-compare,compare the current file export allowance of firth01 and the other tool,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261127,firth01-compare,compare the current file export allowance of firth01 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+official_both_named,20261127,firth03-compare,compare the current export quota of firth03 and firth04,all_targeted,all_targeted,2,grounded,2,5,firth03/current/quota|firth04/current/quota
+official_both_named,20261127,firth03-compare,compare the current export quota of firth03 and firth04,gap,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+official_both_named,20261127,firth03-compare,compare the current export quota of firth03 and firth04,calibrated,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261127,firth03-compare,compare the current export quota of firth03 and firth04,all_targeted,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261127,firth03-compare,compare the current export quota of firth03 and firth04,gap,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261127,firth03-compare,compare the current export quota of firth03 and firth04,calibrated,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261127,firth03-compare,compare the current export quota of firth03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261127,firth03-compare,compare the current export quota of firth03 and the other tool,gap,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261127,firth03-compare,compare the current export quota of firth03 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+official_both_named,20261127,firth05-compare,compare the current export file limit of firth05 and firth06,all_targeted,all_targeted,2,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261127,firth05-compare,compare the current export file limit of firth05 and firth06,gap,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+official_both_named,20261127,firth05-compare,compare the current export file limit of firth05 and firth06,calibrated,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261127,firth05-compare,compare the current export file limit of firth05 and firth06,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261127,firth05-compare,compare the current export file limit of firth05 and firth06,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261127,firth05-compare,compare the current export file limit of firth05 and firth06,calibrated,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261127,firth05-compare,compare the current export file limit of firth05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261127,firth05-compare,compare the current export file limit of firth05 and the other tool,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261127,firth05-compare,compare the current export file limit of firth05 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261128,aster01-compare,compare the current file export allowance of aster01 and aster02,all_targeted,all_targeted,2,grounded,2,5,aster01/current/quota|aster02/current/quota
+official_both_named,20261128,aster01-compare,compare the current file export allowance of aster01 and aster02,gap,gap,2,grounded,1,3,aster01/current/quota|aster02/current/quota
+official_both_named,20261128,aster01-compare,compare the current file export allowance of aster01 and aster02,calibrated,gap,2,grounded,1,3,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261128,aster01-compare,compare the current file export allowance of aster01 and aster02,all_targeted,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261128,aster01-compare,compare the current file export allowance of aster01 and aster02,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261128,aster01-compare,compare the current file export allowance of aster01 and aster02,calibrated,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261128,aster01-compare,compare the current file export allowance of aster01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261128,aster01-compare,compare the current file export allowance of aster01 and the other tool,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261128,aster01-compare,compare the current file export allowance of aster01 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+official_both_named,20261128,aster03-compare,compare the current export file limit of aster03 and aster04,all_targeted,all_targeted,2,grounded,2,5,aster03/current/quota|aster04/current/quota
+official_both_named,20261128,aster03-compare,compare the current export file limit of aster03 and aster04,gap,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+official_both_named,20261128,aster03-compare,compare the current export file limit of aster03 and aster04,calibrated,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261128,aster03-compare,compare the current export file limit of aster03 and aster04,all_targeted,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261128,aster03-compare,compare the current export file limit of aster03 and aster04,gap,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261128,aster03-compare,compare the current export file limit of aster03 and aster04,calibrated,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261128,aster03-compare,compare the current export file limit of aster03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261128,aster03-compare,compare the current export file limit of aster03 and the other tool,gap,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261128,aster03-compare,compare the current export file limit of aster03 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+official_both_named,20261128,aster05-compare,compare the current export quota of aster05 and aster06,all_targeted,all_targeted,2,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261128,aster05-compare,compare the current export quota of aster05 and aster06,gap,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+official_both_named,20261128,aster05-compare,compare the current export quota of aster05 and aster06,calibrated,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261128,aster05-compare,compare the current export quota of aster05 and aster06,all_targeted,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261128,aster05-compare,compare the current export quota of aster05 and aster06,gap,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261128,aster05-compare,compare the current export quota of aster05 and aster06,calibrated,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261128,aster05-compare,compare the current export quota of aster05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261128,aster05-compare,compare the current export quota of aster05 and the other tool,gap,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261128,aster05-compare,compare the current export quota of aster05 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261128,birch01-compare,compare the current file export allowance of birch01 and birch02,all_targeted,all_targeted,0,grounded,2,5,birch01/current/quota|birch02/current/quota
+official_both_named,20261128,birch01-compare,compare the current file export allowance of birch01 and birch02,gap,gap,0,grounded,3,8,birch01/current/quota|birch02/current/quota
+official_both_named,20261128,birch01-compare,compare the current file export allowance of birch01 and birch02,calibrated,gap,0,grounded,3,8,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261128,birch01-compare,compare the current file export allowance of birch01 and birch02,all_targeted,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261128,birch01-compare,compare the current file export allowance of birch01 and birch02,gap,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261128,birch01-compare,compare the current file export allowance of birch01 and birch02,calibrated,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261128,birch01-compare,compare the current file export allowance of birch01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261128,birch01-compare,compare the current file export allowance of birch01 and the other tool,gap,gap,0,grounded,3,9,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261128,birch01-compare,compare the current file export allowance of birch01 and the other tool,calibrated,all_targeted,0,grounded,2,6,birch01/current/quota|birch02/current/quota
+official_both_named,20261128,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,2,grounded,2,5,birch03/current/quota|birch04/current/quota
+official_both_named,20261128,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+official_both_named,20261128,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261128,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261128,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261128,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261128,birch03-compare,compare the current export file limit of birch03 and the other tool,all_targeted,all_targeted,0,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261128,birch03-compare,compare the current export file limit of birch03 and the other tool,gap,gap,0,grounded,3,9,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261128,birch03-compare,compare the current export file limit of birch03 and the other tool,calibrated,all_targeted,0,grounded,2,6,birch03/current/quota|birch04/current/quota
+official_both_named,20261128,birch05-compare,compare the current export file limit of birch05 and birch06,all_targeted,all_targeted,2,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261128,birch05-compare,compare the current export file limit of birch05 and birch06,gap,gap,2,grounded,1,3,birch05/current/quota|birch06/current/quota
+official_both_named,20261128,birch05-compare,compare the current export file limit of birch05 and birch06,calibrated,gap,2,grounded,1,3,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261128,birch05-compare,compare the current export file limit of birch05 and birch06,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261128,birch05-compare,compare the current export file limit of birch05 and birch06,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261128,birch05-compare,compare the current export file limit of birch05 and birch06,calibrated,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261128,birch05-compare,compare the current export file limit of birch05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261128,birch05-compare,compare the current export file limit of birch05 and the other tool,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261128,birch05-compare,compare the current export file limit of birch05 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261128,coral01-compare,compare the current export file limit of coral01 and coral02,all_targeted,all_targeted,2,grounded,2,5,coral01/current/quota|coral02/current/quota
+official_both_named,20261128,coral01-compare,compare the current export file limit of coral01 and coral02,gap,gap,2,grounded,1,3,coral01/current/quota|coral02/current/quota
+official_both_named,20261128,coral01-compare,compare the current export file limit of coral01 and coral02,calibrated,gap,2,grounded,1,3,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261128,coral01-compare,compare the current export file limit of coral01 and coral02,all_targeted,all_targeted,0,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261128,coral01-compare,compare the current export file limit of coral01 and coral02,gap,gap,0,grounded,3,9,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261128,coral01-compare,compare the current export file limit of coral01 and coral02,calibrated,gap,0,grounded,3,9,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261128,coral01-compare,compare the current export file limit of coral01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261128,coral01-compare,compare the current export file limit of coral01 and the other tool,gap,gap,0,grounded,3,9,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261128,coral01-compare,compare the current export file limit of coral01 and the other tool,calibrated,all_targeted,0,grounded,2,6,coral01/current/quota|coral02/current/quota
+official_both_named,20261128,coral03-compare,compare the current export file limit of coral03 and coral04,all_targeted,all_targeted,2,grounded,2,5,coral03/current/quota|coral04/current/quota
+official_both_named,20261128,coral03-compare,compare the current export file limit of coral03 and coral04,gap,gap,2,grounded,1,3,coral03/current/quota|coral04/current/quota
+official_both_named,20261128,coral03-compare,compare the current export file limit of coral03 and coral04,calibrated,gap,2,grounded,1,3,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261128,coral03-compare,compare the current export file limit of coral03 and coral04,all_targeted,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261128,coral03-compare,compare the current export file limit of coral03 and coral04,gap,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261128,coral03-compare,compare the current export file limit of coral03 and coral04,calibrated,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261128,coral03-compare,compare the current export file limit of coral03 and the other tool,all_targeted,all_targeted,0,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261128,coral03-compare,compare the current export file limit of coral03 and the other tool,gap,gap,0,grounded,3,9,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261128,coral03-compare,compare the current export file limit of coral03 and the other tool,calibrated,all_targeted,0,grounded,2,6,coral03/current/quota|coral04/current/quota
+official_both_named,20261128,coral05-compare,compare the current export quota of coral05 and coral06,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261128,coral05-compare,compare the current export quota of coral05 and coral06,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261128,coral05-compare,compare the current export quota of coral05 and coral06,calibrated,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261128,coral05-compare,compare the current export quota of coral05 and coral06,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261128,coral05-compare,compare the current export quota of coral05 and coral06,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261128,coral05-compare,compare the current export quota of coral05 and coral06,calibrated,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261128,coral05-compare,compare the current export quota of coral05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261128,coral05-compare,compare the current export quota of coral05 and the other tool,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261128,coral05-compare,compare the current export quota of coral05 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261128,dune01-compare,compare the current file export allowance of dune01 and dune02,all_targeted,all_targeted,1,grounded,2,5,dune01/current/quota|dune02/current/quota
+official_both_named,20261128,dune01-compare,compare the current file export allowance of dune01 and dune02,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+official_both_named,20261128,dune01-compare,compare the current file export allowance of dune01 and dune02,calibrated,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261128,dune01-compare,compare the current file export allowance of dune01 and dune02,all_targeted,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261128,dune01-compare,compare the current file export allowance of dune01 and dune02,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261128,dune01-compare,compare the current file export allowance of dune01 and dune02,calibrated,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261128,dune01-compare,compare the current file export allowance of dune01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261128,dune01-compare,compare the current file export allowance of dune01 and the other tool,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261128,dune01-compare,compare the current file export allowance of dune01 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+official_both_named,20261128,dune03-compare,compare the current export quota of dune03 and dune04,all_targeted,all_targeted,2,grounded,2,5,dune03/current/quota|dune04/current/quota
+official_both_named,20261128,dune03-compare,compare the current export quota of dune03 and dune04,gap,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+official_both_named,20261128,dune03-compare,compare the current export quota of dune03 and dune04,calibrated,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261128,dune03-compare,compare the current export quota of dune03 and dune04,all_targeted,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261128,dune03-compare,compare the current export quota of dune03 and dune04,gap,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261128,dune03-compare,compare the current export quota of dune03 and dune04,calibrated,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261128,dune03-compare,compare the current export quota of dune03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261128,dune03-compare,compare the current export quota of dune03 and the other tool,gap,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261128,dune03-compare,compare the current export quota of dune03 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+official_both_named,20261128,dune05-compare,compare the current export file limit of dune05 and dune06,all_targeted,all_targeted,2,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261128,dune05-compare,compare the current export file limit of dune05 and dune06,gap,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+official_both_named,20261128,dune05-compare,compare the current export file limit of dune05 and dune06,calibrated,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261128,dune05-compare,compare the current export file limit of dune05 and dune06,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261128,dune05-compare,compare the current export file limit of dune05 and dune06,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261128,dune05-compare,compare the current export file limit of dune05 and dune06,calibrated,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261128,dune05-compare,compare the current export file limit of dune05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261128,dune05-compare,compare the current export file limit of dune05 and the other tool,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261128,dune05-compare,compare the current export file limit of dune05 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261128,elm01-compare,compare the current export quota of elm01 and elm02,all_targeted,all_targeted,2,grounded,2,5,elm01/current/quota|elm02/current/quota
+official_both_named,20261128,elm01-compare,compare the current export quota of elm01 and elm02,gap,gap,2,grounded,1,3,elm01/current/quota|elm02/current/quota
+official_both_named,20261128,elm01-compare,compare the current export quota of elm01 and elm02,calibrated,gap,2,grounded,1,3,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261128,elm01-compare,compare the current export quota of elm01 and elm02,all_targeted,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261128,elm01-compare,compare the current export quota of elm01 and elm02,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261128,elm01-compare,compare the current export quota of elm01 and elm02,calibrated,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261128,elm01-compare,compare the current export quota of elm01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261128,elm01-compare,compare the current export quota of elm01 and the other tool,gap,gap,0,grounded,3,9,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261128,elm01-compare,compare the current export quota of elm01 and the other tool,calibrated,all_targeted,0,grounded,2,6,elm01/current/quota|elm02/current/quota
+official_both_named,20261128,elm03-compare,compare the current export quota of elm03 and elm04,all_targeted,all_targeted,1,grounded,2,5,elm03/current/quota|elm04/current/quota
+official_both_named,20261128,elm03-compare,compare the current export quota of elm03 and elm04,gap,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+official_both_named,20261128,elm03-compare,compare the current export quota of elm03 and elm04,calibrated,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261128,elm03-compare,compare the current export quota of elm03 and elm04,all_targeted,all_targeted,0,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261128,elm03-compare,compare the current export quota of elm03 and elm04,gap,gap,0,grounded,3,9,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261128,elm03-compare,compare the current export quota of elm03 and elm04,calibrated,gap,0,grounded,3,9,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261128,elm03-compare,compare the current export quota of elm03 and the other tool,all_targeted,all_targeted,0,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261128,elm03-compare,compare the current export quota of elm03 and the other tool,gap,gap,0,grounded,3,9,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261128,elm03-compare,compare the current export quota of elm03 and the other tool,calibrated,all_targeted,0,grounded,2,6,elm03/current/quota|elm04/current/quota
+official_both_named,20261128,elm05-compare,compare the current export file limit of elm05 and elm06,all_targeted,all_targeted,2,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261128,elm05-compare,compare the current export file limit of elm05 and elm06,gap,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+official_both_named,20261128,elm05-compare,compare the current export file limit of elm05 and elm06,calibrated,gap,2,grounded,1,3,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261128,elm05-compare,compare the current export file limit of elm05 and elm06,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261128,elm05-compare,compare the current export file limit of elm05 and elm06,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261128,elm05-compare,compare the current export file limit of elm05 and elm06,calibrated,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261128,elm05-compare,compare the current export file limit of elm05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261128,elm05-compare,compare the current export file limit of elm05 and the other tool,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261128,elm05-compare,compare the current export file limit of elm05 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261128,firth01-compare,compare the current file export allowance of firth01 and firth02,all_targeted,all_targeted,2,grounded,2,5,firth01/current/quota|firth02/current/quota
+official_both_named,20261128,firth01-compare,compare the current file export allowance of firth01 and firth02,gap,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+official_both_named,20261128,firth01-compare,compare the current file export allowance of firth01 and firth02,calibrated,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261128,firth01-compare,compare the current file export allowance of firth01 and firth02,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261128,firth01-compare,compare the current file export allowance of firth01 and firth02,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261128,firth01-compare,compare the current file export allowance of firth01 and firth02,calibrated,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261128,firth01-compare,compare the current file export allowance of firth01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261128,firth01-compare,compare the current file export allowance of firth01 and the other tool,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261128,firth01-compare,compare the current file export allowance of firth01 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+official_both_named,20261128,firth03-compare,compare the current file export allowance of firth03 and firth04,all_targeted,all_targeted,2,grounded,2,5,firth03/current/quota|firth04/current/quota
+official_both_named,20261128,firth03-compare,compare the current file export allowance of firth03 and firth04,gap,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+official_both_named,20261128,firth03-compare,compare the current file export allowance of firth03 and firth04,calibrated,gap,2,grounded,1,3,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261128,firth03-compare,compare the current file export allowance of firth03 and firth04,all_targeted,all_targeted,0,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261128,firth03-compare,compare the current file export allowance of firth03 and firth04,gap,gap,0,grounded,3,9,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261128,firth03-compare,compare the current file export allowance of firth03 and firth04,calibrated,gap,0,grounded,3,9,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261128,firth03-compare,compare the current file export allowance of firth03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261128,firth03-compare,compare the current file export allowance of firth03 and the other tool,gap,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261128,firth03-compare,compare the current file export allowance of firth03 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+official_both_named,20261128,firth05-compare,compare the current export file limit of firth05 and firth06,all_targeted,all_targeted,2,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261128,firth05-compare,compare the current export file limit of firth05 and firth06,gap,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+official_both_named,20261128,firth05-compare,compare the current export file limit of firth05 and firth06,calibrated,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261128,firth05-compare,compare the current export file limit of firth05 and firth06,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261128,firth05-compare,compare the current export file limit of firth05 and firth06,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261128,firth05-compare,compare the current export file limit of firth05 and firth06,calibrated,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261128,firth05-compare,compare the current export file limit of firth05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261128,firth05-compare,compare the current export file limit of firth05 and the other tool,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261128,firth05-compare,compare the current export file limit of firth05 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261129,aster01-compare,compare the current file export allowance of aster01 and aster02,all_targeted,all_targeted,1,grounded,2,5,aster01/current/quota|aster02/current/quota
+official_both_named,20261129,aster01-compare,compare the current file export allowance of aster01 and aster02,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+official_both_named,20261129,aster01-compare,compare the current file export allowance of aster01 and aster02,calibrated,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261129,aster01-compare,compare the current file export allowance of aster01 and aster02,all_targeted,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261129,aster01-compare,compare the current file export allowance of aster01 and aster02,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_both_named,20261129,aster01-compare,compare the current file export allowance of aster01 and aster02,calibrated,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261129,aster01-compare,compare the current file export allowance of aster01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261129,aster01-compare,compare the current file export allowance of aster01 and the other tool,gap,gap,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+mixed_second_omitted,20261129,aster01-compare,compare the current file export allowance of aster01 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster01/current/quota|aster02/current/quota
+official_both_named,20261129,aster03-compare,compare the current export quota of aster03 and aster04,all_targeted,all_targeted,2,grounded,2,5,aster03/current/quota|aster04/current/quota
+official_both_named,20261129,aster03-compare,compare the current export quota of aster03 and aster04,gap,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+official_both_named,20261129,aster03-compare,compare the current export quota of aster03 and aster04,calibrated,gap,2,grounded,1,3,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261129,aster03-compare,compare the current export quota of aster03 and aster04,all_targeted,all_targeted,0,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261129,aster03-compare,compare the current export quota of aster03 and aster04,gap,gap,0,grounded,3,9,aster03/current/quota|aster04/current/quota
+mixed_both_named,20261129,aster03-compare,compare the current export quota of aster03 and aster04,calibrated,gap,0,grounded,3,9,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261129,aster03-compare,compare the current export quota of aster03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261129,aster03-compare,compare the current export quota of aster03 and the other tool,gap,gap,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+mixed_second_omitted,20261129,aster03-compare,compare the current export quota of aster03 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster03/current/quota|aster04/current/quota
+official_both_named,20261129,aster05-compare,compare the current export file limit of aster05 and aster06,all_targeted,all_targeted,2,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261129,aster05-compare,compare the current export file limit of aster05 and aster06,gap,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+official_both_named,20261129,aster05-compare,compare the current export file limit of aster05 and aster06,calibrated,gap,2,grounded,1,3,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261129,aster05-compare,compare the current export file limit of aster05 and aster06,all_targeted,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261129,aster05-compare,compare the current export file limit of aster05 and aster06,gap,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_both_named,20261129,aster05-compare,compare the current export file limit of aster05 and aster06,calibrated,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261129,aster05-compare,compare the current export file limit of aster05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261129,aster05-compare,compare the current export file limit of aster05 and the other tool,gap,gap,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+mixed_second_omitted,20261129,aster05-compare,compare the current export file limit of aster05 and the other tool,calibrated,all_targeted,1,grounded,2,6,aster05/current/quota|aster06/current/quota
+official_both_named,20261129,birch01-compare,compare the current file export allowance of birch01 and birch02,all_targeted,all_targeted,2,grounded,2,5,birch01/current/quota|birch02/current/quota
+official_both_named,20261129,birch01-compare,compare the current file export allowance of birch01 and birch02,gap,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+official_both_named,20261129,birch01-compare,compare the current file export allowance of birch01 and birch02,calibrated,gap,2,grounded,1,3,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261129,birch01-compare,compare the current file export allowance of birch01 and birch02,all_targeted,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261129,birch01-compare,compare the current file export allowance of birch01 and birch02,gap,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_both_named,20261129,birch01-compare,compare the current file export allowance of birch01 and birch02,calibrated,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261129,birch01-compare,compare the current file export allowance of birch01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261129,birch01-compare,compare the current file export allowance of birch01 and the other tool,gap,gap,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+mixed_second_omitted,20261129,birch01-compare,compare the current file export allowance of birch01 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch01/current/quota|birch02/current/quota
+official_both_named,20261129,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,2,grounded,2,5,birch03/current/quota|birch04/current/quota
+official_both_named,20261129,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+official_both_named,20261129,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,2,grounded,1,3,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261129,birch03-compare,compare the current export file limit of birch03 and birch04,all_targeted,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261129,birch03-compare,compare the current export file limit of birch03 and birch04,gap,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_both_named,20261129,birch03-compare,compare the current export file limit of birch03 and birch04,calibrated,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261129,birch03-compare,compare the current export file limit of birch03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261129,birch03-compare,compare the current export file limit of birch03 and the other tool,gap,gap,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+mixed_second_omitted,20261129,birch03-compare,compare the current export file limit of birch03 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch03/current/quota|birch04/current/quota
+official_both_named,20261129,birch05-compare,compare the current file export allowance of birch05 and birch06,all_targeted,all_targeted,2,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261129,birch05-compare,compare the current file export allowance of birch05 and birch06,gap,gap,2,grounded,1,3,birch05/current/quota|birch06/current/quota
+official_both_named,20261129,birch05-compare,compare the current file export allowance of birch05 and birch06,calibrated,gap,2,grounded,1,3,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261129,birch05-compare,compare the current file export allowance of birch05 and birch06,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261129,birch05-compare,compare the current file export allowance of birch05 and birch06,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_both_named,20261129,birch05-compare,compare the current file export allowance of birch05 and birch06,calibrated,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261129,birch05-compare,compare the current file export allowance of birch05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261129,birch05-compare,compare the current file export allowance of birch05 and the other tool,gap,gap,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+mixed_second_omitted,20261129,birch05-compare,compare the current file export allowance of birch05 and the other tool,calibrated,all_targeted,1,grounded,2,6,birch05/current/quota|birch06/current/quota
+official_both_named,20261129,coral01-compare,compare the current export quota of coral01 and coral02,all_targeted,all_targeted,2,grounded,2,5,coral01/current/quota|coral02/current/quota
+official_both_named,20261129,coral01-compare,compare the current export quota of coral01 and coral02,gap,gap,2,grounded,1,3,coral01/current/quota|coral02/current/quota
+official_both_named,20261129,coral01-compare,compare the current export quota of coral01 and coral02,calibrated,gap,2,grounded,1,3,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261129,coral01-compare,compare the current export quota of coral01 and coral02,all_targeted,all_targeted,2,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261129,coral01-compare,compare the current export quota of coral01 and coral02,gap,gap,2,grounded,1,3,coral01/current/quota|coral02/current/quota
+mixed_both_named,20261129,coral01-compare,compare the current export quota of coral01 and coral02,calibrated,gap,2,grounded,1,3,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261129,coral01-compare,compare the current export quota of coral01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261129,coral01-compare,compare the current export quota of coral01 and the other tool,gap,gap,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+mixed_second_omitted,20261129,coral01-compare,compare the current export quota of coral01 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral01/current/quota|coral02/current/quota
+official_both_named,20261129,coral03-compare,compare the current file export allowance of coral03 and coral04,all_targeted,all_targeted,1,grounded,2,5,coral03/current/quota|coral04/current/quota
+official_both_named,20261129,coral03-compare,compare the current file export allowance of coral03 and coral04,gap,gap,1,grounded,2,5,coral03/current/quota|coral04/current/quota
+official_both_named,20261129,coral03-compare,compare the current file export allowance of coral03 and coral04,calibrated,gap,1,grounded,2,5,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261129,coral03-compare,compare the current file export allowance of coral03 and coral04,all_targeted,all_targeted,0,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261129,coral03-compare,compare the current file export allowance of coral03 and coral04,gap,gap,0,grounded,3,9,coral03/current/quota|coral04/current/quota
+mixed_both_named,20261129,coral03-compare,compare the current file export allowance of coral03 and coral04,calibrated,gap,0,grounded,3,9,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261129,coral03-compare,compare the current file export allowance of coral03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261129,coral03-compare,compare the current file export allowance of coral03 and the other tool,gap,gap,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+mixed_second_omitted,20261129,coral03-compare,compare the current file export allowance of coral03 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral03/current/quota|coral04/current/quota
+official_both_named,20261129,coral05-compare,compare the current export file limit of coral05 and coral06,all_targeted,all_targeted,2,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261129,coral05-compare,compare the current export file limit of coral05 and coral06,gap,gap,2,grounded,1,3,coral05/current/quota|coral06/current/quota
+official_both_named,20261129,coral05-compare,compare the current export file limit of coral05 and coral06,calibrated,gap,2,grounded,1,3,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261129,coral05-compare,compare the current export file limit of coral05 and coral06,all_targeted,all_targeted,2,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261129,coral05-compare,compare the current export file limit of coral05 and coral06,gap,gap,2,grounded,1,3,coral05/current/quota|coral06/current/quota
+mixed_both_named,20261129,coral05-compare,compare the current export file limit of coral05 and coral06,calibrated,gap,2,grounded,1,3,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261129,coral05-compare,compare the current export file limit of coral05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261129,coral05-compare,compare the current export file limit of coral05 and the other tool,gap,gap,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+mixed_second_omitted,20261129,coral05-compare,compare the current export file limit of coral05 and the other tool,calibrated,all_targeted,1,grounded,2,6,coral05/current/quota|coral06/current/quota
+official_both_named,20261129,dune01-compare,compare the current export file limit of dune01 and dune02,all_targeted,all_targeted,2,grounded,2,5,dune01/current/quota|dune02/current/quota
+official_both_named,20261129,dune01-compare,compare the current export file limit of dune01 and dune02,gap,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+official_both_named,20261129,dune01-compare,compare the current export file limit of dune01 and dune02,calibrated,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261129,dune01-compare,compare the current export file limit of dune01 and dune02,all_targeted,all_targeted,2,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261129,dune01-compare,compare the current export file limit of dune01 and dune02,gap,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+mixed_both_named,20261129,dune01-compare,compare the current export file limit of dune01 and dune02,calibrated,gap,2,grounded,1,3,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261129,dune01-compare,compare the current export file limit of dune01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261129,dune01-compare,compare the current export file limit of dune01 and the other tool,gap,gap,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+mixed_second_omitted,20261129,dune01-compare,compare the current export file limit of dune01 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune01/current/quota|dune02/current/quota
+official_both_named,20261129,dune03-compare,compare the current export file limit of dune03 and dune04,all_targeted,all_targeted,2,grounded,2,5,dune03/current/quota|dune04/current/quota
+official_both_named,20261129,dune03-compare,compare the current export file limit of dune03 and dune04,gap,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+official_both_named,20261129,dune03-compare,compare the current export file limit of dune03 and dune04,calibrated,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261129,dune03-compare,compare the current export file limit of dune03 and dune04,all_targeted,all_targeted,2,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261129,dune03-compare,compare the current export file limit of dune03 and dune04,gap,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+mixed_both_named,20261129,dune03-compare,compare the current export file limit of dune03 and dune04,calibrated,gap,2,grounded,1,3,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261129,dune03-compare,compare the current export file limit of dune03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261129,dune03-compare,compare the current export file limit of dune03 and the other tool,gap,gap,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+mixed_second_omitted,20261129,dune03-compare,compare the current export file limit of dune03 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune03/current/quota|dune04/current/quota
+official_both_named,20261129,dune05-compare,compare the current export quota of dune05 and dune06,all_targeted,all_targeted,2,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261129,dune05-compare,compare the current export quota of dune05 and dune06,gap,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+official_both_named,20261129,dune05-compare,compare the current export quota of dune05 and dune06,calibrated,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261129,dune05-compare,compare the current export quota of dune05 and dune06,all_targeted,all_targeted,2,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261129,dune05-compare,compare the current export quota of dune05 and dune06,gap,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+mixed_both_named,20261129,dune05-compare,compare the current export quota of dune05 and dune06,calibrated,gap,2,grounded,1,3,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261129,dune05-compare,compare the current export quota of dune05 and the other tool,all_targeted,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261129,dune05-compare,compare the current export quota of dune05 and the other tool,gap,gap,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+mixed_second_omitted,20261129,dune05-compare,compare the current export quota of dune05 and the other tool,calibrated,all_targeted,1,grounded,2,6,dune05/current/quota|dune06/current/quota
+official_both_named,20261129,elm01-compare,compare the current export file limit of elm01 and elm02,all_targeted,all_targeted,2,grounded,2,5,elm01/current/quota|elm02/current/quota
+official_both_named,20261129,elm01-compare,compare the current export file limit of elm01 and elm02,gap,gap,2,grounded,1,3,elm01/current/quota|elm02/current/quota
+official_both_named,20261129,elm01-compare,compare the current export file limit of elm01 and elm02,calibrated,gap,2,grounded,1,3,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261129,elm01-compare,compare the current export file limit of elm01 and elm02,all_targeted,all_targeted,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261129,elm01-compare,compare the current export file limit of elm01 and elm02,gap,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_both_named,20261129,elm01-compare,compare the current export file limit of elm01 and elm02,calibrated,gap,1,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261129,elm01-compare,compare the current export file limit of elm01 and the other tool,all_targeted,all_targeted,0,grounded,2,6,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261129,elm01-compare,compare the current export file limit of elm01 and the other tool,gap,gap,0,grounded,3,9,elm01/current/quota|elm02/current/quota
+mixed_second_omitted,20261129,elm01-compare,compare the current export file limit of elm01 and the other tool,calibrated,all_targeted,0,grounded,2,6,elm01/current/quota|elm02/current/quota
+official_both_named,20261129,elm03-compare,compare the current export file limit of elm03 and elm04,all_targeted,all_targeted,2,grounded,2,5,elm03/current/quota|elm04/current/quota
+official_both_named,20261129,elm03-compare,compare the current export file limit of elm03 and elm04,gap,gap,2,grounded,1,3,elm03/current/quota|elm04/current/quota
+official_both_named,20261129,elm03-compare,compare the current export file limit of elm03 and elm04,calibrated,gap,2,grounded,1,3,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261129,elm03-compare,compare the current export file limit of elm03 and elm04,all_targeted,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261129,elm03-compare,compare the current export file limit of elm03 and elm04,gap,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_both_named,20261129,elm03-compare,compare the current export file limit of elm03 and elm04,calibrated,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261129,elm03-compare,compare the current export file limit of elm03 and the other tool,all_targeted,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261129,elm03-compare,compare the current export file limit of elm03 and the other tool,gap,gap,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+mixed_second_omitted,20261129,elm03-compare,compare the current export file limit of elm03 and the other tool,calibrated,all_targeted,1,grounded,2,6,elm03/current/quota|elm04/current/quota
+official_both_named,20261129,elm05-compare,compare the current file export allowance of elm05 and elm06,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261129,elm05-compare,compare the current file export allowance of elm05 and elm06,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261129,elm05-compare,compare the current file export allowance of elm05 and elm06,calibrated,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261129,elm05-compare,compare the current file export allowance of elm05 and elm06,all_targeted,all_targeted,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261129,elm05-compare,compare the current file export allowance of elm05 and elm06,gap,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_both_named,20261129,elm05-compare,compare the current file export allowance of elm05 and elm06,calibrated,gap,1,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261129,elm05-compare,compare the current file export allowance of elm05 and the other tool,all_targeted,all_targeted,0,grounded,2,6,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261129,elm05-compare,compare the current file export allowance of elm05 and the other tool,gap,gap,0,grounded,3,9,elm05/current/quota|elm06/current/quota
+mixed_second_omitted,20261129,elm05-compare,compare the current file export allowance of elm05 and the other tool,calibrated,all_targeted,0,grounded,2,6,elm05/current/quota|elm06/current/quota
+official_both_named,20261129,firth01-compare,compare the current export file limit of firth01 and firth02,all_targeted,all_targeted,2,grounded,2,5,firth01/current/quota|firth02/current/quota
+official_both_named,20261129,firth01-compare,compare the current export file limit of firth01 and firth02,gap,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+official_both_named,20261129,firth01-compare,compare the current export file limit of firth01 and firth02,calibrated,gap,2,grounded,1,3,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261129,firth01-compare,compare the current export file limit of firth01 and firth02,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261129,firth01-compare,compare the current export file limit of firth01 and firth02,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_both_named,20261129,firth01-compare,compare the current export file limit of firth01 and firth02,calibrated,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261129,firth01-compare,compare the current export file limit of firth01 and the other tool,all_targeted,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261129,firth01-compare,compare the current export file limit of firth01 and the other tool,gap,gap,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+mixed_second_omitted,20261129,firth01-compare,compare the current export file limit of firth01 and the other tool,calibrated,all_targeted,1,grounded,2,6,firth01/current/quota|firth02/current/quota
+official_both_named,20261129,firth03-compare,compare the current file export allowance of firth03 and firth04,all_targeted,all_targeted,1,grounded,2,5,firth03/current/quota|firth04/current/quota
+official_both_named,20261129,firth03-compare,compare the current file export allowance of firth03 and firth04,gap,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+official_both_named,20261129,firth03-compare,compare the current file export allowance of firth03 and firth04,calibrated,gap,1,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261129,firth03-compare,compare the current file export allowance of firth03 and firth04,all_targeted,all_targeted,0,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261129,firth03-compare,compare the current file export allowance of firth03 and firth04,gap,gap,0,grounded,3,9,firth03/current/quota|firth04/current/quota
+mixed_both_named,20261129,firth03-compare,compare the current file export allowance of firth03 and firth04,calibrated,gap,0,grounded,3,9,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261129,firth03-compare,compare the current file export allowance of firth03 and the other tool,all_targeted,all_targeted,0,grounded,2,6,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261129,firth03-compare,compare the current file export allowance of firth03 and the other tool,gap,gap,0,grounded,3,9,firth03/current/quota|firth04/current/quota
+mixed_second_omitted,20261129,firth03-compare,compare the current file export allowance of firth03 and the other tool,calibrated,all_targeted,0,grounded,2,6,firth03/current/quota|firth04/current/quota
+official_both_named,20261129,firth05-compare,compare the current export file limit of firth05 and firth06,all_targeted,all_targeted,2,grounded,2,6,firth05/current/quota|firth06/current/quota
+official_both_named,20261129,firth05-compare,compare the current export file limit of firth05 and firth06,gap,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+official_both_named,20261129,firth05-compare,compare the current export file limit of firth05 and firth06,calibrated,gap,2,grounded,1,3,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261129,firth05-compare,compare the current export file limit of firth05 and firth06,all_targeted,all_targeted,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261129,firth05-compare,compare the current export file limit of firth05 and firth06,gap,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_both_named,20261129,firth05-compare,compare the current export file limit of firth05 and firth06,calibrated,gap,1,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261129,firth05-compare,compare the current export file limit of firth05 and the other tool,all_targeted,all_targeted,0,grounded,2,6,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261129,firth05-compare,compare the current export file limit of firth05 and the other tool,gap,gap,0,grounded,3,9,firth05/current/quota|firth06/current/quota
+mixed_second_omitted,20261129,firth05-compare,compare the current export file limit of firth05 and the other tool,calibrated,all_targeted,0,grounded,2,6,firth05/current/quota|firth06/current/quota

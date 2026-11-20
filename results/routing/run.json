@@ -1,0 +1,45 @@
+{
+  "calibration_seeds": [
+    20261121,
+    20261122,
+    20261123
+  ],
+  "test_seeds": [
+    20261124,
+    20261125,
+    20261126,
+    20261127,
+    20261128,
+    20261129
+  ],
+  "top_k": 3,
+  "broad_cost": 1,
+  "scoped_cost": 1,
+  "scenario": {
+    "official_both_named": "current official passages; original broad query",
+    "mixed_both_named": "official current, archived and mirrored passages; original broad query",
+    "mixed_second_omitted": "same mixed index; second entity omitted from broad query only"
+  },
+  "calibration": {
+    "official_both_named": {
+      "n": 54,
+      "mean_usable": 1.7037,
+      "chosen_branch": "gap"
+    },
+    "mixed_both_named": {
+      "n": 54,
+      "mean_usable": 1.0741,
+      "chosen_branch": "gap"
+    },
+    "mixed_second_omitted": {
+      "n": 54,
+      "mean_usable": 0.7407,
+      "chosen_branch": "all_targeted"
+    }
+  },
+  "sha256": {
+    "summary.csv": "afc41dbd2738f48e5f1bbd378e4bd2a21d1a1d3affd1526f20f4099331c37d94",
+    "by_seed.csv": "ebad6fe9cc03fb6c7c01ec80dd848fd68a628df409db2876a700936f3178c909",
+    "by_query.csv": "73cab30fb7ab9f85ef3bcd078bc5fccf77b808f477bbf26d0b512e0ed4453a2f"
+  }
+}

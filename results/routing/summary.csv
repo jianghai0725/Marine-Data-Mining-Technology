@@ -1,0 +1,10 @@
+scenario,policy,questions,first_round_usable_mean,grounded,wrong,missed,calls,mean_calls,mean_passages
+official_both_named,all_targeted,108,1.6481,108,0,0,216,2.0,5.3333
+official_both_named,gap,108,1.6481,108,0,0,146,1.3519,3.9722
+official_both_named,calibrated,108,1.6481,108,0,0,146,1.3519,3.9722
+mixed_both_named,all_targeted,108,0.9722,108,0,0,216,2.0,6
+mixed_both_named,gap,108,0.9722,108,0,0,219,2.0278,6.0833
+mixed_both_named,calibrated,108,0.9722,108,0,0,219,2.0278,6.0833
+mixed_second_omitted,all_targeted,108,0.75,108,0,0,216,2.0,6
+mixed_second_omitted,gap,108,0.75,108,0,0,243,2.25,6.75
+mixed_second_omitted,calibrated,108,0.75,108,0,0,216,2.0,6

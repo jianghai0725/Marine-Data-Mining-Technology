@@ -86,8 +86,8 @@ FIELD_QUERY = {"quota": "export quota file limit allowance",
                "retention": "history retention expiry activity records kept"}
 
 
-def build():
-    rng = random.Random(SEED)
+def build(seed: int = SEED):
+    rng = random.Random(seed)
     apps = [f"{stem}{suffix:02}" for stem in ("aster", "birch", "coral", "dune", "elm", "firth")
             for suffix in range(1, 7)]
     official, noise, questions = [], [], []
